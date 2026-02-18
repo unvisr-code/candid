@@ -1,15 +1,13 @@
 ---
 id: data-dashboard
 evdId: EVD--2
-order: 6
+order: 5
 org: Angelswing
 period: "2023.08 ~ 2024.04"
 title: 전사 지표 기반 데이터 대시보드 구축
 resultValue: 7건
 resultNum: 7
 resultUnit: 건
-verified: 검증완료
-contribution: 0.75
 skills:
   - Power BI
   - Looker Studio
@@ -19,21 +17,21 @@ skills:
   - Monday
   - Slack
   - G Sheet
-capabilities:
-  - 진심
+verified: 부분검증
+capabilities: []
 contentStatus: 완료
 category: "Analytics"
 coverImage: /portfolio/evd-2-cover.png
 ---
 
 ## resultLabel
-7개 부서 데이터를 통합 기준으로 연결해 전사 대시보드 운영 체계를 구축했다.
+7개 부서 데이터를 통합 기준으로 연결해 전사 대시보드 운영 체계를 구축했습니다.
 
 ## headline
-분산된 부서 데이터를 공통 기준으로 통합해 전사 대시보드 운영 체계를 만들었다.
+해외 리서치/개발 팀과 협업하며, 부서 데이터를 공통 기준으로 통합해 운영 지표를 정리했습니다.
 
 ## summary
-부서별로 달랐던 데이터 기준을 날짜·고객·프로젝트 키로 표준화했다. 7개 부서 데이터를 연결해 같은 지표를 같은 언어로 볼 수 있는 운영 기반을 구축했다.
+해외 리서치/개발 팀과 협업하며 한국 사업부를 대표해 요구사항을 정리하고 전달했습니다. 운영 지표를 정리해 팀이 같은 화면으로 현황을 파악할 수 있게 했습니다.
 
 ## problemDef
 부서마다 데이터 저장 방식과 지표 정의가 달라 같은 질문에도 서로 다른 숫자가 나오는 상황이 반복되었습니다. 이 구조에서는 회의마다 기준을 맞추는 데 시간이 소모되어 실행 결정이 늦어졌습니다.
@@ -54,4 +52,4 @@ coverImage: /portfolio/evd-2-cover.png
 다른 과제에서도 먼저 기준점을 정의하고 이후 도구를 배치하는 순서를 유지하고 있습니다. 이해관계자가 많은 환경일수록 이 순서가 실행 속도를 안정화했습니다.
 
 ## candidConnection
-부서간 데이터 표준화 경험은 채용팀·사업팀·경영진이 같은 지표로 채용 성과를 논의할 수 있는 기반을 만드는 역량입니다. 이해관계자가 많은 채용 의사결정에서 커뮤니케이션 비용을 줄입니다.
+여러 부서의 데이터를 공통 기준으로 정리한 경험은, 채용 과정에서 후보자와 기업의 정보를 이해하기 쉬운 형태로 정리하는 데 기여할 수 있습니다.

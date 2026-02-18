@@ -1,24 +1,20 @@
 ---
 id: leanup-edu
 evdId: EVD--10
-order: 8
+order: 4
 org: LEANUP
 period: "2025.12 ~ 진행중"
 title: 린업 교육 사업
 resultValue: 교육
 resultNum: null
 resultUnit: null
-verified: 부분검증
-contribution: null
 skills:
   - 교육 설계
   - 커리큘럼 운영
   - 바이브코딩
   - 커뮤니티 운영
-capabilities:
-  - 허슬
-  - 관계구축
-  - 설득
+verified: 부분검증
+capabilities: []
 contentStatus: 검수중
 category: "Content / Community"
 coverImage: /candid-portfolio-photo/leanup-edu.jpg
@@ -28,10 +24,10 @@ coverImage: /candid-portfolio-photo/leanup-edu.jpg
 현재 운영 중이며 유료 전환 구조와 반복 교육 커리큘럼을 검증하고 있다.
 
 ## headline
-교육과 실행 과제를 연결한 운영 모델로 학습자의 실무 전환 경로를 설계했다.
+누구나 바이브코딩을 시작할 수 있는 교육 프로그램을 운영하고 있습니다.
 
 ## summary
-초급 학습과 실제 제작 과제를 분리하지 않고 주간 피드백 루프로 연결했다. 프로그램은 운영 중이며 유료 전환 및 반복 운영 지표를 단계적으로 축적하고 있다.
+커리큘럼 설계, 세션 운영, 참여자 질문 응대와 진도 관리를 담당했습니다. 실습 기반으로 학습자가 결과물을 남기도록 설계하고, 반복 운영이 가능한 구조로 정리하고 있습니다.
 
 ## problemDef
 AI 기반 제작 도구는 늘었지만, 초심자가 실제 업무로 연결하는 단계에서 이탈이 자주 발생했습니다. 도구 소개 중심 교육만으로는 실행 성공률을 높이기 어려웠습니다.
@@ -50,3 +46,6 @@ AI 기반 제작 도구는 늘었지만, 초심자가 실제 업무로 연결하
 
 ## extensionView
 복잡한 업무를 처음 다루는 사람에게는 도구 설명보다 실행 경로가 먼저 필요했습니다. 이후 프로젝트에서도 진입 장벽을 낮추는 단계형 운영 설계를 우선하고 있습니다.
+
+## candidConnection
+교육 프로그램에서 학습자를 응대하고 진도를 관리한 경험은, 구직자의 준비 과정을 정리하고 다음 행동을 구체화하는 데 기여할 수 있습니다.

@@ -7,33 +7,6 @@ import BlurText from "@/components/reactbits/blur-text";
 import SplitText from "@/components/reactbits/split-text";
 import type { PortfolioProject } from "@/data/portfolio";
 
-function VerifiedBadge({
-  verified,
-}: {
-  verified: "검증완료" | "부분검증" | "미검증";
-}) {
-  const isVerified = verified === "검증완료";
-  return (
-    <span
-      className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium ${
-        isVerified
-          ? "bg-accent/10 text-accent"
-          : "bg-muted/10 text-muted"
-      }`}
-    >
-      {verified}
-    </span>
-  );
-}
-
-function ContributionBadge({ value }: { value: number }) {
-  return (
-    <span className="bg-foreground/5 text-foreground inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium">
-      기여 {Math.round(value * 100)}%
-    </span>
-  );
-}
-
 function TagList({
   items,
   variant,
@@ -149,23 +122,17 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
             delay={40}
           />
           <p className="text-muted mt-1 text-sm">{project.resultLabel}</p>
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            <VerifiedBadge verified={project.verified} />
-            {project.contribution !== null && (
-              <ContributionBadge value={project.contribution} />
-            )}
-          </div>
         </div>
 
         {/* 우: 서사 흐름 (문제→접근→결과) */}
         <div className="space-y-3">
           {project.problemDef && (
-            <NarrativeStep label="문제" text={project.problemDef} accent />
+            <NarrativeStep label="한 줄 요약" text={project.problemDef} accent />
           )}
           {project.approach && (
-            <NarrativeStep label="접근" text={project.approach} />
+            <NarrativeStep label="내 역할" text={project.approach} />
           )}
-          <NarrativeStep label="결과" text={project.summary} />
+          <NarrativeStep label="무엇이 달라졌는지" text={project.summary} />
         </div>
       </div>
 
@@ -238,7 +205,7 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
       {project.candidConnection && (
         <div className="bg-accent/5 border-accent/20 mt-6 rounded-lg border p-4">
           <span className="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold tracking-wider text-white uppercase">
-            Candid 연결
+            이 경험이 도움이 되는 방식
           </span>
           <p className="text-foreground/80 mt-2 text-sm leading-relaxed">
             {project.candidConnection}
@@ -249,7 +216,6 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
       {/* 태그 */}
       <div className="mt-8 space-y-3">
         <TagList items={project.skills} variant="skill" />
-        <TagList items={project.capabilities} variant="capability" />
       </div>
     </motion.section>
   );

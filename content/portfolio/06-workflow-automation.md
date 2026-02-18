@@ -1,24 +1,21 @@
 ---
 id: workflow-automation
 evdId: EVD--3
-order: 7
+order: 6
 org: Angelswing
 period: "2024.07 ~ 2024.10"
 title: 업무 자동화 구조 설계
 resultValue: 6건
 resultNum: 6
 resultUnit: 건
-verified: 검증완료
 contribution: 0.9
 skills:
   - Slack
   - Integromat(Make)
   - Zapier
   - G Sheet
-capabilities:
-  - 허슬
-  - 문제해결
-  - 운영시스템화
+verified: 부분검증
+capabilities: []
 contentStatus: 완료
 category: "Automation / Tooling"
 coverImage: /portfolio/evd-3-cover.png
@@ -28,7 +25,7 @@ coverImage: /portfolio/evd-3-cover.png
 반복 운영 업무 6개를 자동화 플로우로 전환해 수작업 의존도를 줄였다.
 
 ## headline
-반복 운영 업무 6개를 자동화해 수작업 의존도를 크게 줄였다.
+반복 업무를 자동화 가능한 단위로 나누고, 실행 흐름을 정리했습니다.
 
 ## summary
 Slack, Zapier, Make를 연결해 검수, 지연 감지, 기록 보관 플로우를 표준화했다. 담당자 라우팅과 알림 기준을 고정해 대응 속도와 일관성을 높였다.
@@ -50,3 +47,6 @@ Slack 인터페이스에 버튼 기반 입력 흐름을 만들고 Zapier, Make�
 
 ## extensionView
 운영 과제가 바뀌어도 입력-판단-조치의 기본 골격을 먼저 만들면 전환 비용이 낮아집니다. 이후 개선은 도구 교체보다 기준 보정에 집중하고 있습니다.
+
+## candidConnection
+반복 업무를 정리하고 자동화한 경험은, 채용 운영에서 반복되는 질문/이슈를 묶어 운영 부담을 줄이는 데 기여할 수 있습니다.

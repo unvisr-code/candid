@@ -3,13 +3,12 @@ import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
 import { PortfolioHero } from "@/components/portfolio/portfolio-hero";
 import { PortfolioFilter } from "@/components/portfolio/portfolio-filter";
-import { CapabilitySection } from "@/components/portfolio/capability-section";
 import { portfolioProjects } from "@/data/portfolio";
 
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "오영준 포트폴리오. 고객문의 자동화, 데이터 대시보드, 업무 자동화, CRM 퍼널 설계 등 10개 프로젝트의 성과와 실행 기록.",
+    "오영준 포트폴리오. CX, 운영, 세일즈 경험을 바탕으로 실제 업무에서 개선을 만든 프로젝트 기록입니다.",
 };
 
 export default function PortfolioPage() {
@@ -43,9 +42,6 @@ export default function PortfolioPage() {
 
         {/* Project sections */}
         <PortfolioFilter projects={portfolioProjects} />
-
-        {/* 역량 프로필 */}
-        <CapabilitySection />
 
         {/* 하단 CTA */}
         <div className="flex flex-wrap items-center gap-3 py-12 sm:py-16">

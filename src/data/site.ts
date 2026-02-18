@@ -33,9 +33,9 @@ export const siteContact: SiteContact = {
 };
 
 export const heroContent: HeroContent = {
-  headline: "현장의 병목을 실행 가능한 구조로 바꿉니다.",
+  headline: "학교와 현장을 병행하며, 낯선 문제도 끝까지 정리해온 사람",
   subheadline:
-    "20살부터 학업과 실무를 병행하며 자동화와 데이터 기반 운영으로 문제를 해결해 왔습니다.",
+    "제한된 시간 안에서 우선순위를 세우고, 필요한 일을 끝까지 완수하는 법을 배웠습니다.",
 };
 
 export const landingVisualConfig: LandingVisualConfig = {
@@ -67,23 +67,23 @@ export type ProfileBadge = {
 export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
   left: {
     label: "RESUME",
-    headline: "현장의 문제를 '채용 가능한 구조'로 바꾸는 운영형 컨설턴트",
+    headline: "학교와 현장을 병행하며, 낯선 문제도 끝까지 정리해온 사람",
     description:
-      "학교와 실무를 병행하며, 제한된 시간·리소스에서 성과를 내는 방법을 체득했습니다. 데이터/자동화/프로세스로 병목을 줄이고, 사람과 조직이 더 빠르게 매칭되게 돕습니다.",
+      "학교와 실무를 병행하며 제한된 시간 안에서 우선순위를 세우고, 필요한 일을 끝까지 완수하는 법을 배웠습니다. 그 과정에서 직접 느낀 고민과 시행착오를 바탕으로, 비슷한 상황에 있는 사람들의 준비와 선택을 돕고 싶습니다.",
     href: "/resume",
   },
   right: {
     label: "PORTFOLIO",
-    headline: "실행으로 검증된 프로젝트와 성과",
+    headline: "실행으로 남긴 프로젝트와 기록",
     description:
-      "CRM·세일즈·운영 데이터 기반으로 실질적인 전환/리텐션 개선을 만들었습니다.",
+      "CRM, 세일즈, 운영, 고객 커뮤니케이션 경험을 바탕으로 실제 업무에서 개선을 만들었습니다.",
     href: "/portfolio",
   },
 };
 
 export const profileBadge: ProfileBadge = {
   name: "오영준",
-  tagline: "Operations & BD | Candidate-first Recruiting Consultant (지원)",
+  tagline: "Business Development · CX Operations",
   image: "/jun-optimized.jpg",
 };
 

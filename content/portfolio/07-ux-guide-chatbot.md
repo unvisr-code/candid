@@ -1,24 +1,20 @@
 ---
 id: ux-guide-chatbot
 evdId: EVD--4
-order: 10
+order: 7
 org: Angelswing
 period: "2023.03 ~ 2023.06"
 title: UX 기반 유저가이드 리뉴얼 & 챗봇 연계
 resultValue: CX
 resultNum: null
 resultUnit: null
-verified: 부분검증
-contribution: 0.9
 skills:
   - Notion
   - Channel Talk
   - GA-4
   - Google Tag Manager
-capabilities:
-  - 문제해결
-  - 운영시스템화
-  - 설득
+verified: 부분검증
+capabilities: []
 contentStatus: 검수중
 category: "Automation / Tooling"
 coverImage: /portfolio/evd-4-cover.png
@@ -50,3 +46,6 @@ PDF 가이드를 탐색형 구조로 전환하고 챗봇과 연결해 셀프해�
 
 ## extensionView
 복잡한 제품일수록 정보 접근 경로를 먼저 설계해야 운영 비용이 안정화됩니다. 이후에는 콘텐츠 양보다 탐색 맥락의 일관성을 우선해 유지하고 있습니다.
+
+## candidConnection
+유저가이드를 재설계하고 챗봇과 연계한 경험은, 구직자가 필요한 정보를 스스로 찾을 수 있도록 안내 구조를 만드는 데 기여할 수 있습니다.

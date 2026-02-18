@@ -1,22 +1,20 @@
 ---
 id: careerly-dashboard
 evdId: EVD--7
-order: 5
+order: 10
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 대시보드
 resultValue: 66건
 resultNum: 66
 resultUnit: 건
-verified: 검증완료
-contribution: null
 skills:
   - 대시보드 설계
   - 데이터 시각화
   - BigQuery
   - 비즈니스 분석
-capabilities:
-  - 진심
+verified: 부분검증
+capabilities: []
 contentStatus: 완료
 category: "Analytics"
 coverImage: /candid-portfolio-photo/careerly-data-dashboard1.jpg
@@ -55,4 +53,4 @@ images:
 이 방식은 새로운 조직이나 제품에서도 빠르게 재사용할 수 있는 프레임이 됩니다. 먼저 질문 목록을 만들고, 이후 지표 체계를 붙이는 순서로 확장하고 있습니다.
 
 ## candidConnection
-질문 기반 대시보드 설계 경험은 채용 KPI와 매칭 퍼널의 지표 체계 구축에 직접 활용됩니다. 의사결정자가 같은 기준으로 채용 성과를 판단할 수 있는 운영 언어를 만드는 역량입니다.
+질문 기반으로 대시보드를 설계한 경험은, 채용 성과를 같은 기준으로 판단할 수 있는 정보 구조를 만드는 데 기여할 수 있습니다.

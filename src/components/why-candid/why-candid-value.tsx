@@ -4,15 +4,15 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const candidateValues = [
-  "방향을 잃기 쉬운 주니어에게 '우선순위가 있는 준비 로드맵' 제시",
-  "이력서/포트폴리오를 '경험 나열'이 아니라 '시장에 팔리는 스토리'로 구조화",
-  "지원/면접 과정을 실험처럼 운영(가설→지원→피드백→개선 루프)",
+  "경험을 '말'이 아니라 '근거 있는 스토리'로 정리하도록 돕겠습니다.",
+  "지원/면접 준비의 우선순위를 함께 정리해, 막막함을 줄이겠습니다.",
+  "상담 내용을 기록하고 다음 행동을 구체화해, 준비가 이어지도록 돕겠습니다.",
 ];
 
 const companyValues = [
-  "JD를 '요구사항'이 아니라 '평가 가능한 기준'으로 재정의",
-  "후보자 정보를 정리해 의사결정 비용(시간/리스크)을 줄임",
-  "채용 파이프라인을 수치로 관리해 속도/품질을 함께 개선",
+  "후보자의 경험을 이해하기 쉬운 형태로 정리해 전달하겠습니다.",
+  "후보자 커뮤니케이션 과정에서 발생하는 정보를 누락 없이 정리하겠습니다.",
+  "채용 과정에서 반복되는 질문/이슈를 묶어, 운영 부담을 줄이는 데 기여하겠습니다.",
 ];
 
 export function WhyCandidValue() {
@@ -28,7 +28,7 @@ export function WhyCandidValue() {
       className="border-border border-b py-12 sm:py-16"
     >
       <h2 className="text-foreground mb-8 text-xl font-bold tracking-[-0.02em] sm:text-2xl">
-        제공하는 가치
+        제가 기여할 수 있는 일
       </h2>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

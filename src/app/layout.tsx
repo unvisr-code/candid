@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     template: "%s | 오영준",
   },
   description:
-    "현장의 병목을 실행 가능한 구조로 전환하는 오영준의 랜딩 페이지입니다. Resume와 Portfolio로 빠르게 이동할 수 있습니다.",
+    "오영준의 랜딩 페이지입니다. Resume와 Portfolio로 빠르게 이동할 수 있습니다.",
   openGraph: {
     title: "오영준 | Operations & Business Development",
     description:
-      "현장의 병목을 실행 가능한 구조로 전환하는 오영준의 랜딩 페이지입니다.",
+      "오영준의 랜딩 페이지입니다.",
     images: ["/opengraph-image"],
     locale: "ko_KR",
     type: "website",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "오영준 | Operations & Business Development",
     description:
-      "현장의 병목을 실행 가능한 구조로 전환하는 오영준의 랜딩 페이지입니다.",
+      "오영준의 랜딩 페이지입니다.",
     images: ["/opengraph-image"],
   },
 };
