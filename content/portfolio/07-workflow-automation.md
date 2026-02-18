@@ -20,6 +20,7 @@ capabilities:
   - 문제해결
   - 운영시스템화
 contentStatus: 완료
+category: "Automation / Tooling"
 coverImage: /portfolio/evd-3-cover.png
 ---
 

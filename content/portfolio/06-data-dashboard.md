@@ -22,6 +22,7 @@ skills:
 capabilities:
   - 진심
 contentStatus: 완료
+category: "Analytics"
 coverImage: /portfolio/evd-2-cover.png
 ---
 
@@ -51,3 +52,6 @@ coverImage: /portfolio/evd-2-cover.png
 
 ## extensionView
 다른 과제에서도 먼저 기준점을 정의하고 이후 도구를 배치하는 순서를 유지하고 있습니다. 이해관계자가 많은 환경일수록 이 순서가 실행 속도를 안정화했습니다.
+
+## candidConnection
+부서간 데이터 표준화 경험은 채용팀·사업팀·경영진이 같은 지표로 채용 성과를 논의할 수 있는 기반을 만드는 역량입니다. 이해관계자가 많은 채용 의사결정에서 커뮤니케이션 비용을 줄입니다.

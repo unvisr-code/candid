@@ -234,6 +234,18 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
         </div>
       )}
 
+      {/* 캔디드 연결 */}
+      {project.candidConnection && (
+        <div className="bg-accent/5 border-accent/20 mt-6 rounded-lg border p-4">
+          <span className="bg-accent rounded px-1.5 py-0.5 text-[10px] font-bold tracking-wider text-white uppercase">
+            Candid 연결
+          </span>
+          <p className="text-foreground/80 mt-2 text-sm leading-relaxed">
+            {project.candidConnection}
+          </p>
+        </div>
+      )}
+
       {/* 태그 */}
       <div className="mt-8 space-y-3">
         <TagList items={project.skills} variant="skill" />

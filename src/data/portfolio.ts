@@ -35,6 +35,8 @@ export type PortfolioProject = {
   images: string[];
   approach: string;
   extensionView: string;
+  category: string;
+  candidConnection: string;
 };
 
 export type CapabilityDetail = {
@@ -57,7 +59,7 @@ export const portfolioProjects: PortfolioProject[] = [
   {
     id: "careerly-mcp",
     evdId: "EVD--6",
-    order: 1,
+    order: 4,
     org: "Careerly",
     period: "2025.07 ~ 진행중",
     title: "커리어리 데이터 MCP",
@@ -84,11 +86,13 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     approach: "자연어 입력을 의도별로 분류해 데이터 소스와 쿼리를 자동 라우팅하는 분석 흐름을 설계했습니다. 결과는 숫자 나열이 아니라 관찰, 원인 가설, 다음 액션으로 정리되도록 출력 구조를 고정했습니다.",
     extensionView: "복잡한 운영 환경에서는 도구를 늘리는 것보다 질의와 해석의 표준을 먼저 맞추는 접근이 효과적이었습니다. 이후 다른 데이터 과제에서도 같은 질의 중심 구조를 재사용하고 있습니다.",
+    category: "Analytics",
+    candidConnection: "데이터 분석 리드타임 단축 경험은 채용 퍼널/매칭 퍼널을 지표로 운영하는 역량과 직결됩니다. 자연어 기반 분석 흐름은 비개발 팀원도 채용 데이터를 빠르게 검증할 수 있는 구조를 만듭니다.",
   },
   {
     id: "careerly-dashboard",
     evdId: "EVD--7",
-    order: 2,
+    order: 5,
     org: "Careerly",
     period: "2025.07 ~ 진행중",
     title: "커리어리 데이터 대시보드",
@@ -116,6 +120,8 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     approach: "운영에서 반복되는 66개 질문을 먼저 정의하고, 질문마다 필요한 데이터 소스와 시각화 뷰를 매핑했습니다. 공통 날짜 필터와 비교 기준을 표준화해 누구나 같은 맥락에서 숫자를 읽을 수 있도록 설계했습니다.",
     extensionView: "이 방식은 새로운 조직이나 제품에서도 빠르게 재사용할 수 있는 프레임이 됩니다. 먼저 질문 목록을 만들고, 이후 지표 체계를 붙이는 순서로 확장하고 있습니다.",
+    category: "Analytics",
+    candidConnection: "질문 기반 대시보드 설계 경험은 채용 KPI와 매칭 퍼널의 지표 체계 구축에 직접 활용됩니다. 의사결정자가 같은 기준으로 채용 성과를 판단할 수 있는 운영 언어를 만드는 역량입니다.",
   },
   {
     id: "leanup-si",
@@ -143,11 +149,13 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "요구사항을 기능 단위로 분해하고 짧은 주기의 MVP 시연-피드백 루프를 운영 모델로 고정했습니다. 초기 합의 단계에서 범위, 일정, 검수 기준을 문서화해 변경 비용을 줄였습니다.",
     extensionView: "요구사항이 불명확한 과제일수록 작게 시연하고 빠르게 합의하는 방식이 유효했습니다. 이후 다른 프로젝트에서도 동일한 리듬을 기본 운영 방식으로 사용하고 있습니다.",
+    category: "Sales & Pipeline",
+    candidConnection: "",
   },
   {
     id: "leanup-edu",
     evdId: "EVD--10",
-    order: 4,
+    order: 8,
     org: "LEANUP",
     period: "2025.12 ~ 진행중",
     title: "린업 교육 사업",
@@ -170,11 +178,13 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "기초 학습과 실제 제작 과제를 분리하지 않고 하나의 운영 루프로 구성했습니다. 주간 단위 온보딩, 과제 배정, 피드백 라운드를 고정해 학습자가 결과물을 남기도록 설계했습니다.",
     extensionView: "복잡한 업무를 처음 다루는 사람에게는 도구 설명보다 실행 경로가 먼저 필요했습니다. 이후 프로젝트에서도 진입 장벽을 낮추는 단계형 운영 설계를 우선하고 있습니다.",
+    category: "Content / Community",
+    candidConnection: "",
   },
   {
     id: "cx-automation",
     evdId: "EVD--1",
-    order: 5,
+    order: 2,
     org: "Angelswing",
     period: "2022.09 ~ 2023.02",
     title: "고객문의 60% 자동화 및 응답 구조 개선",
@@ -197,6 +207,8 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "문의 로그를 유형별로 분류하고, 난이도 기준으로 자동응답과 담당자 라우팅 규칙을 분리했습니다. 주간 리뷰에서 태그 분포를 확인하며 챗봇 시나리오와 가이드 링크를 계속 보정했습니다.",
     extensionView: "반복 문의를 구조화한 방식은 이후 운영 과제에서도 재사용 가능한 기본 패턴이 되었습니다. 먼저 기준을 세우고 예외를 관리하는 접근을 유지하고 있습니다.",
+    category: "Recruiting Ops / CRM",
+    candidConnection: "문의 유형화와 자동응답 설계 경험은 후보자 상담 프로세스 구조화에 바로 적용됩니다. 반복 질문을 분류하고 우선순위를 정하는 역량이 채용 상담의 효율성을 높입니다.",
   },
   {
     id: "data-dashboard",
@@ -233,6 +245,8 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "각 부서 인터뷰를 통해 공통 기준 키를 날짜, 고객 ID, 프로젝트 ID로 정하고 데이터 포맷을 통일했습니다. 이후 Looker Studio와 Power BI를 병행해 실시간 확인용 화면과 운영 모니터링 화면을 역할별로 분리했습니다.",
     extensionView: "다른 과제에서도 먼저 기준점을 정의하고 이후 도구를 배치하는 순서를 유지하고 있습니다. 이해관계자가 많은 환경일수록 이 순서가 실행 속도를 안정화했습니다.",
+    category: "Analytics",
+    candidConnection: "부서간 데이터 표준화 경험은 채용팀·사업팀·경영진이 같은 지표로 채용 성과를 논의할 수 있는 기반을 만드는 역량입니다. 이해관계자가 많은 채용 의사결정에서 커뮤니케이션 비용을 줄입니다.",
   },
   {
     id: "workflow-automation",
@@ -260,11 +274,13 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "Slack 인터페이스에 버튼 기반 입력 흐름을 만들고 Zapier, Make로 검수·경고·기록 단계를 자동 연결했습니다. 지연 기준을 사전에 정의해 임계값을 넘으면 담당자에게 즉시 라우팅되도록 설계했습니다.",
     extensionView: "운영 과제가 바뀌어도 입력-판단-조치의 기본 골격을 먼저 만들면 전환 비용이 낮아집니다. 이후 개선은 도구 교체보다 기준 보정에 집중하고 있습니다.",
+    category: "Automation / Tooling",
+    candidConnection: "",
   },
   {
     id: "crm-funnel",
     evdId: "EVD--5",
-    order: 8,
+    order: 1,
     org: "세종대학교 총동아리연합회",
     period: "2024.01 ~ 2024.12",
     title: "학생 대상 CRM 기반 홍보·참여 퍼널 설계",
@@ -287,6 +303,8 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "웹 인터랙션 로그, 채널별 유입 링크, 설문 응답을 하나의 퍼널로 연결해 추적 구조를 설계했습니다. 메시지 문구와 콘텐츠 포맷을 채널별 전환 데이터 기준으로 반복 수정했습니다.",
     extensionView: "대상 규모가 큰 운영 과제에서는 정성 피드백만으로는 개선 속도를 유지하기 어렵습니다. 유입-행동-피드백을 연결한 측정 프레임은 이후 다른 프로젝트에서도 재사용되고 있습니다.",
+    category: "Recruiting Ops / CRM",
+    candidConnection: "CRM 퍼널 설계 경험은 후보자 Nurturing과 Candidate Journey 운영에 직접 연결됩니다. 채널별 전환율 추적과 메시지 세그먼트 운영 역량을 채용 파이프라인 관리에 적용할 수 있습니다.",
   },
   {
     id: "secondteam-events",
@@ -314,6 +332,8 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "행사 기획, 디자인, 운영을 하나의 보드로 통합하고 체크리스트와 마감 기준을 템플릿화했습니다. 주간 점검 리듬을 고정해 변경 사항을 조기에 공유하고, 당일 운영 시나리오를 사전에 정렬했습니다.",
     extensionView: "이 방식은 행사뿐 아니라 이해관계자가 많은 프로젝트 운영에도 그대로 적용됩니다. 준비 단계에서 기준을 명확히 고정하는 접근을 계속 유지하고 있습니다.",
+    category: "Content / Community",
+    candidConnection: "",
   },
   {
     id: "ux-guide-chatbot",
@@ -341,6 +361,8 @@ export const portfolioProjects: PortfolioProject[] = [
     images: [],
     approach: "기존 가이드를 기능 중심 탐색 구조로 재설계하고, 챗봇 답변에서 관련 섹션으로 바로 이동하도록 링크 체계를 구성했습니다. 문의 유형별로 자주 막히는 구간을 기록해 가이드 문서와 챗봇 시나리오를 함께 업데이트했습니다.",
     extensionView: "복잡한 제품일수록 정보 접근 경로를 먼저 설계해야 운영 비용이 안정화됩니다. 이후에는 콘텐츠 양보다 탐색 맥락의 일관성을 우선해 유지하고 있습니다.",
+    category: "Automation / Tooling",
+    candidConnection: "",
   },
 ];
 

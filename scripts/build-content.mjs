@@ -91,6 +91,8 @@ function buildProjects() {
       `    images: ${lit(m.images || [])},`,
       `    approach: ${lit(sections.approach || "")},`,
       `    extensionView: ${lit(sections.extensionView || "")},`,
+      `    category: ${lit(m.category || "")},`,
+      `    candidConnection: ${lit(sections.candidConnection || "")},`,
       `  }`,
     ].join("\n");
   });
@@ -171,6 +173,8 @@ export type PortfolioProject = {
   images: string[];
   approach: string;
   extensionView: string;
+  category: string;
+  candidConnection: string;
 };
 
 export type CapabilityDetail = {

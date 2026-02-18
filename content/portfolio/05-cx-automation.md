@@ -1,7 +1,7 @@
 ---
 id: cx-automation
 evdId: EVD--1
-order: 5
+order: 2
 org: Angelswing
 period: "2022.09 ~ 2023.02"
 title: 고객문의 60% 자동화 및 응답 구조 개선
@@ -17,6 +17,7 @@ skills:
 capabilities:
   - 진심
 contentStatus: 완료
+category: "Recruiting Ops / CRM"
 coverImage: /portfolio/evd-1-cover.png
 ---
 
@@ -46,3 +47,6 @@ coverImage: /portfolio/evd-1-cover.png
 
 ## extensionView
 반복 문의를 구조화한 방식은 이후 운영 과제에서도 재사용 가능한 기본 패턴이 되었습니다. 먼저 기준을 세우고 예외를 관리하는 접근을 유지하고 있습니다.
+
+## candidConnection
+문의 유형화와 자동응답 설계 경험은 후보자 상담 프로세스 구조화에 바로 적용됩니다. 반복 질문을 분류하고 우선순위를 정하는 역량이 채용 상담의 효율성을 높입니다.

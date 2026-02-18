@@ -22,7 +22,7 @@ export type LandingCta = {
 };
 
 export type NavItem = {
-  label: "Resume" | "Portfolio" | "Contact";
+  label: "Resume" | "Portfolio" | "Contact" | "Why Candid";
   href: string;
   external?: boolean;
 };
@@ -67,23 +67,23 @@ export type ProfileBadge = {
 export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
   left: {
     label: "RESUME",
-    headline: "이력과 경험을 확인하세요",
+    headline: "현장의 문제를 '채용 가능한 구조'로 바꾸는 운영형 컨설턴트",
     description:
-      "20살부터 학업과 실무를 병행하며 쌓아온 경험과 역량을 소개합니다.",
+      "학교와 실무를 병행하며, 제한된 시간·리소스에서 성과를 내는 방법을 체득했습니다. 데이터/자동화/프로세스로 병목을 줄이고, 사람과 조직이 더 빠르게 매칭되게 돕습니다.",
     href: "/resume",
   },
   right: {
     label: "PORTFOLIO",
-    headline: "프로젝트와 성과를 확인하세요",
+    headline: "실행으로 검증된 프로젝트와 성과",
     description:
-      "자동화와 데이터 기반 운영으로 만들어낸 실질적인 성과를 보여드립니다.",
+      "CRM·세일즈·운영 데이터 기반으로 실질적인 전환/리텐션 개선을 만들었습니다.",
     href: "/portfolio",
   },
 };
 
 export const profileBadge: ProfileBadge = {
   name: "오영준",
-  tagline: "Operations & Business Development",
+  tagline: "Operations & BD | Candidate-first Recruiting Consultant (지원)",
   image: "/jun-optimized.jpg",
 };
 
@@ -94,5 +94,6 @@ export const navItems: NavItem[] = [
     href: landingCta.right.href,
     external: landingCta.right.external,
   },
+  { label: "Why Candid", href: "/why-candid" },
   { label: "Contact", href: `mailto:${siteContact.email}`, external: true },
 ];

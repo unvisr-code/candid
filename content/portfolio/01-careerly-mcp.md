@@ -1,7 +1,7 @@
 ---
 id: careerly-mcp
 evdId: EVD--6
-order: 1
+order: 4
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 MCP
@@ -21,6 +21,7 @@ capabilities:
   - 문제해결
   - 운영시스템화
 contentStatus: 완료
+category: "Analytics"
 coverImage: /candid-portfolio-photo/careerly-data-mcp1.jpg
 images:
   - /candid-portfolio-photo/careerly-data-mcp2.jpg
@@ -54,3 +55,6 @@ Smart Query 라우팅, 4개 데이터 소스 도구, Insight Engine을 통합해
 
 ## extensionView
 복잡한 운영 환경에서는 도구를 늘리는 것보다 질의와 해석의 표준을 먼저 맞추는 접근이 효과적이었습니다. 이후 다른 데이터 과제에서도 같은 질의 중심 구조를 재사용하고 있습니다.
+
+## candidConnection
+데이터 분석 리드타임 단축 경험은 채용 퍼널/매칭 퍼널을 지표로 운영하는 역량과 직결됩니다. 자연어 기반 분석 흐름은 비개발 팀원도 채용 데이터를 빠르게 검증할 수 있는 구조를 만듭니다.

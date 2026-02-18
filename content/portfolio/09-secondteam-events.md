@@ -20,6 +20,7 @@ capabilities:
   - 관계구축
   - 운영시스템화
 contentStatus: 검수중
+category: "Content / Community"
 coverImage: /candid-portfolio-photo/second-team.jpg
 ---
 

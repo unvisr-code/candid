@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteFooter } from "@/components/site-footer";
 import { PortfolioHero } from "@/components/portfolio/portfolio-hero";
-import { ProjectSection } from "@/components/portfolio/project-section";
+import { PortfolioFilter } from "@/components/portfolio/portfolio-filter";
 import { CapabilitySection } from "@/components/portfolio/capability-section";
 import { portfolioProjects } from "@/data/portfolio";
 
@@ -30,15 +30,19 @@ export default function PortfolioPage() {
           >
             Go Resume
           </Link>
+          <Link
+            href="/why-candid"
+            className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
+          >
+            Why Candid
+          </Link>
         </div>
 
         {/* Hero */}
         <PortfolioHero />
 
         {/* Project sections */}
-        {portfolioProjects.map((project) => (
-          <ProjectSection key={project.id} project={project} />
-        ))}
+        <PortfolioFilter projects={portfolioProjects} />
 
         {/* 역량 프로필 */}
         <CapabilitySection />
@@ -50,6 +54,12 @@ export default function PortfolioPage() {
             className="bg-accent hover:bg-accent-strong rounded-full px-6 py-3 text-sm font-semibold text-white"
           >
             View Resume
+          </Link>
+          <Link
+            href="/why-candid"
+            className="bg-accent hover:bg-accent-strong rounded-full px-6 py-3 text-sm font-semibold text-white"
+          >
+            Why Candid
           </Link>
           <Link
             href="/"

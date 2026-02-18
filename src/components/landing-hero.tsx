@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Noise from "@/components/reactbits/noise";
 import { PanelDivider } from "@/components/panel-divider";
@@ -82,6 +83,27 @@ export function LandingHero() {
           <div className="pointer-events-auto">
             <ProfileBadge />
           </div>
+        </div>
+
+        {/* Why Candid button — bottom center */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-[clamp(24px,5vh,56px)] z-[30] flex justify-center">
+          <motion.div
+            className="pointer-events-auto"
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <Link
+              href="/why-candid"
+              className="inline-flex items-center gap-2 rounded-full border border-[rgba(236,125,49,0.4)] bg-[rgba(255,255,255,0.7)] px-5 py-2.5 text-xs font-semibold text-[var(--accent)] shadow-[0_4px_20px_rgba(236,125,49,0.1)] backdrop-blur-md transition-all hover:border-[var(--accent-strong)] hover:bg-[rgba(236,125,49,0.08)] hover:shadow-[0_6px_28px_rgba(236,125,49,0.18)]"
+            >
+              Why Candid
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
+            </Link>
+          </motion.div>
         </div>
       </main>
     </section>

@@ -8,7 +8,9 @@ type ExperienceItem = {
   org: string;
   period: string;
   role: string;
-  description: string;
+  mission: string;
+  action: string;
+  impact: string;
 };
 
 type EducationItem = {
@@ -17,9 +19,9 @@ type EducationItem = {
 };
 
 const summaryBullets = [
-  "반복되는 이슈를 유형화하고, 사람 의존 업무를 기준·도구·루틴으로 고정",
-  "단기 처리보다 재현 가능한 운영 구조를 우선해, 다음 분기에도 같은 품질이 나오도록 설계",
-  "실행 과정은 수치와 근거 문서로 남겨, 이후 판단 비용을 절감",
+  "반복 이슈를 프로세스/툴/루틴으로 표준화하여 팀 생산성을 끌어올림",
+  "운영 데이터를 지표화하고, 의사결정 근거를 문서로 남겨 재현 가능한 실행 구조 구축",
+  "'주니어/인턴'의 입장을 이해하며 상담→전략→실행까지 연결하는 커뮤니케이션 강점",
 ];
 
 const experiences: ExperienceItem[] = [
@@ -27,36 +29,44 @@ const experiences: ExperienceItem[] = [
     org: "창업가 (LEANUP)",
     period: "2025.12 ~ 현재",
     role: "Founder",
-    description: "사업 방향 수립, 고객 문제 검증, 서비스 운영 구조 설계 및 실행",
+    mission: "SI 사업에서 기획→개발 전환 구간의 병목 반복",
+    action: "바이브코딩 기반 SI 운영 모델 설계, 짧은 시연 주기 납품 루프 구축",
+    impact: "클라이언트 3건 확보, 대형 계약 협의 진행 중",
   },
   {
     org: "(주) 커리어리 (시소)",
     period: "2025.07 ~ 현재",
     role: "Business Development",
-    description: "사업 개발, B2B 세일즈, CRM 마케팅 운영",
+    mission: "분석 리드타임 과다 및 세일즈 파이프라인 비체계적 운영",
+    action: "MCP 기반 데이터 분석 도구 + 세일즈 파이프라인 + CRM 구조 설계",
+    impact: "반복 분석 리드타임 55분→2분 단축, 66개 핵심 질문 대시보드 구축",
   },
   {
     org: "(주) Angelswing",
     period: "2022.08 ~ 2024.12",
     role: "CX Manager",
-    description: "고객 퍼널 설계, 고객문의 자동화, 운영 데이터 구축 및 관리",
+    mission: "단일큐 문의 구조로 인한 응답 지연 및 운영 비효율",
+    action: "문의 유형화 + 자동응답/라우팅 체계 설계 + 데이터 표준화",
+    impact: "고객문의 60% 자동화, 7개 부서 데이터 통합 대시보드 구축",
   },
   {
     org: "(주) Angelswing",
     period: "2022.05 ~ 2022.07",
     role: "CS Intern",
-    description: "데이터 처리, 고객문의 응대 지원",
+    mission: "PDF 기반 가이드에서 정보 탐색 실패로 반복 문의 누적",
+    action: "유저가이드 탐색형 구조로 재설계 + 챗봇 연계 셀프해결 동선 구축",
+    impact: "반복문의 1차 흡수 구조 확립, CX 운영 부담 감소",
   },
 ];
 
 const educations: EducationItem[] = [
   {
     name: "세종대학교 나노신소재공학과",
-    status: "재학 (휴학 예정)",
+    status: "재학 (휴학)",
   },
   {
     name: "세종대학교 연계융합창업전공",
-    status: "재학 (휴학 예정)",
+    status: "재학 (휴학)",
   },
   {
     name: "한국디지털미디어고등학교 해킹방어과",
@@ -95,6 +105,12 @@ export default function ResumePage() {
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
             Go Portfolio
+          </Link>
+          <Link
+            href="/why-candid"
+            className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
+          >
+            Why Candid
           </Link>
         </div>
 
@@ -157,9 +173,12 @@ export default function ResumePage() {
               <div className="border-border mb-6 border-b pb-5">
                 <SectionTitle>Summary</SectionTitle>
                 <p className="text-foreground mb-3 text-sm leading-relaxed">
-                  현장의 병목을 실행 가능한 운영 시스템으로 바꿉니다. 사람에
-                  의존하는 업무를 기준과 도구로 고정해, 팀이 지속적으로 같은
-                  품질을 재현할 수 있는 구조를 설계합니다.
+                  현장의 병목을 &apos;실행 가능한 운영 시스템&apos;으로 바꾸는
+                  운영/BD형 문제해결자입니다. 학교와 회사를 병행하며 제한된
+                  리소스에서 성과를 내는 방식(우선순위·자동화·데이터)을
+                  체득했고, 이 경험을 바탕으로 구직자에게는 불확실을 줄이는
+                  상담/전략을, 기업에게는 채용 의사결정의 비용을 줄이는 정보
+                  구조화를 제공합니다.
                 </p>
                 <ul className="space-y-2">
                   {summaryBullets.map((bullet) => (
@@ -196,9 +215,20 @@ export default function ResumePage() {
                       <p className="text-accent-strong mb-2 text-[13px] font-semibold">
                         {experience.role}
                       </p>
-                      <p className="text-foreground text-[13px] leading-relaxed">
-                        {experience.description}
-                      </p>
+                      <div className="space-y-1.5 text-[13px] leading-relaxed">
+                        <div className="flex gap-2">
+                          <span className="text-accent shrink-0 font-semibold">미션</span>
+                          <p className="text-foreground/80">{experience.mission}</p>
+                        </div>
+                        <div className="flex gap-2">
+                          <span className="text-foreground/50 shrink-0 font-semibold">액션</span>
+                          <p className="text-foreground/80">{experience.action}</p>
+                        </div>
+                        <div className="flex gap-2">
+                          <span className="text-foreground/50 shrink-0 font-semibold">임팩트</span>
+                          <p className="text-foreground/80">{experience.impact}</p>
+                        </div>
+                      </div>
                     </li>
                   ))}
                 </ul>

@@ -1,7 +1,7 @@
 ---
 id: leanup-edu
 evdId: EVD--10
-order: 4
+order: 8
 org: LEANUP
 period: "2025.12 ~ 진행중"
 title: 린업 교육 사업
@@ -20,6 +20,7 @@ capabilities:
   - 관계구축
   - 설득
 contentStatus: 검수중
+category: "Content / Community"
 coverImage: /candid-portfolio-photo/leanup-edu.jpg
 ---
 

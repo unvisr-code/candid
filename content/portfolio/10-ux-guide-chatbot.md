@@ -20,6 +20,7 @@ capabilities:
   - 운영시스템화
   - 설득
 contentStatus: 검수중
+category: "Automation / Tooling"
 coverImage: /portfolio/evd-4-cover.png
 ---
 

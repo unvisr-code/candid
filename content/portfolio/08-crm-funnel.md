@@ -1,7 +1,7 @@
 ---
 id: crm-funnel
 evdId: EVD--5
-order: 8
+order: 1
 org: 세종대학교 총동아리연합회
 period: "2024.01 ~ 2024.12"
 title: 학생 대상 CRM 기반 홍보·참여 퍼널 설계
@@ -21,6 +21,7 @@ capabilities:
   - 문제해결
   - 설득
 contentStatus: 완료
+category: "Recruiting Ops / CRM"
 coverImage: /portfolio/evd-5-cover.png
 ---
 
@@ -50,3 +51,6 @@ coverImage: /portfolio/evd-5-cover.png
 
 ## extensionView
 대상 규모가 큰 운영 과제에서는 정성 피드백만으로는 개선 속도를 유지하기 어렵습니다. 유입-행동-피드백을 연결한 측정 프레임은 이후 다른 프로젝트에서도 재사용되고 있습니다.
+
+## candidConnection
+CRM 퍼널 설계 경험은 후보자 Nurturing과 Candidate Journey 운영에 직접 연결됩니다. 채널별 전환율 추적과 메시지 세그먼트 운영 역량을 채용 파이프라인 관리에 적용할 수 있습니다.

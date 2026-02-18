@@ -71,7 +71,7 @@ export function ProfileBadge() {
 
         {/* Tagline */}
         <motion.p
-          className="text-[10px] font-medium tracking-[0.06em] text-[var(--text-muted)] whitespace-nowrap"
+          className="text-[10px] font-medium tracking-[0.06em] text-[var(--text-muted)] text-center max-w-[200px]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.35 }}

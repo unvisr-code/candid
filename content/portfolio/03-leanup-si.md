@@ -20,6 +20,7 @@ capabilities:
   - 문제해결
   - 설득
 contentStatus: 검수중
+category: "Sales & Pipeline"
 coverImage: /candid-portfolio-photo/leanup-si.jpg
 ---
 
