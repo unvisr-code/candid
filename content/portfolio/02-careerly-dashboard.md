@@ -1,7 +1,7 @@
 ---
 id: careerly-dashboard
 evdId: EVD--7
-order: 7
+order: 2
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 대시보드

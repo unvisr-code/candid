@@ -1,7 +1,7 @@
 ---
 id: careerly-mcp
 evdId: EVD--6
-order: 6
+order: 1
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 MCP

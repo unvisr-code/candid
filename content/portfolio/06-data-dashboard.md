@@ -1,7 +1,7 @@
 ---
 id: data-dashboard
 evdId: EVD--2
-order: 2
+order: 6
 org: Angelswing
 period: "2023.08 ~ 2024.04"
 title: 전사 지표 기반 데이터 대시보드 구축

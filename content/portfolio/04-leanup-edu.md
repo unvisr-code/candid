@@ -1,7 +1,7 @@
 ---
 id: leanup-edu
 evdId: EVD--10
-order: 10
+order: 4
 org: LEANUP
 period: "2025.12 ~ 진행중"
 title: 린업 교육 사업

@@ -1,7 +1,7 @@
 ---
 id: cx-automation
 evdId: EVD--1
-order: 1
+order: 5
 org: Angelswing
 period: "2022.09 ~ 2023.02"
 title: 고객문의 60% 자동화 및 응답 구조 개선

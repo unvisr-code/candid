@@ -1,7 +1,7 @@
 ---
 id: secondteam-events
 evdId: EVD--8
-order: 8
+order: 9
 org: seeso
 period: "2025.07 ~ 진행중"
 title: 세컨팀 행사 기획 및 운영

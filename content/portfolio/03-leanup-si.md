@@ -1,7 +1,7 @@
 ---
 id: leanup-si
 evdId: EVD--9
-order: 9
+order: 3
 org: LEANUP
 period: "2025.12 ~ 진행중"
 title: 린업 SI 사업
