@@ -49,13 +49,13 @@ export default function WhyCandidPage() {
           <div className="bg-white border-border rounded-xl border p-6 sm:p-8">
             <div className="text-foreground/80 space-y-4 text-sm leading-relaxed sm:text-base">
               <p>
-                학교와 현장을 병행하면서, 준비가 부족한 채로 면접장에 가고 방향을 모른 채 이력서를 쓰던 시간이 있었습니다. 돌이켜보면, 그때 옆에서 &quot;지금 이 순서로 준비하면 돼&quot;라고 말해주는 사람이 있었다면 훨씬 덜 헤맸을 것 같습니다.
+                Angelswing에서 고객 문의를 하루에 수십 건씩 응대하면서, 자주 반복되는 패턴이 보이기 시작했습니다. 질문의 내용은 달랐지만 결국 &quot;내 상황에서 어떻게 하면 되는지&quot;를 알고 싶은 것이었습니다.
               </p>
               <p>
-                캔디드가 하는 일이 바로 그 역할이라고 생각했습니다. 주니어에게는 막막한 준비 과정을 정리해주고, 기업에게는 후보자를 이해하기 쉬운 형태로 전달하는 일. 저는 그 과정에서 사람을 만나고, 이야기를 듣고, 정보를 정리하는 일을 잘 할 수 있다고 생각합니다.
+                채용 상담도 같은 구조라고 생각합니다. 구직자에게는 &quot;지금 상황에서 어떻게 준비하면 되는지&quot;를, 기업에게는 &quot;이 후보자가 우리에게 맞는지&quot;를 정리해 연결하는 일. 캔디드가 그 역할을 하는 곳이라고 봤습니다.
               </p>
               <p>
-                고객 응대, 행사 운영, 데이터 정리, 교육 프로그램 운영까지 — 지금까지의 경험은 모두 &quot;사람의 상황을 이해하고, 필요한 정보를 정리해서 전달하는 일&quot;이었습니다. 캔디드에서 더 많은 사람을 만나고, 그 경험을 더 나은 연결로 바꾸는 과정에 함께하고 싶습니다.
+                고객 응대, 행사 운영, 데이터 정리, SI 프로젝트 — 모든 경험이 결국 같은 일이었습니다. 상대의 상황을 파악하고, 정보를 정리해서, 맞는 형태로 전달하는 것. 이 방식을 채용 상담에 쓰고 싶습니다.
               </p>
             </div>
             <p className="text-muted mt-6 text-right text-sm">오영준 드림</p>
@@ -64,7 +64,7 @@ export default function WhyCandidPage() {
 
         {/* 마무리 */}
         <p className="text-muted py-12 text-center text-sm leading-relaxed sm:py-16">
-          캔디드에서 더 많은 사람을 만나고, 더 나은 연결을 만드는 과정에 함께하고 싶습니다.
+          지금까지 해온 일의 구조를, 채용이라는 현장에서 계속 이어가고 싶습니다.
         </p>
       </main>
       <SiteFooter />

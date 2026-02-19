@@ -33,9 +33,9 @@ export const siteContact: SiteContact = {
 };
 
 export const heroContent: HeroContent = {
-  headline: "학교와 현장을 병행하며, 낯선 문제도 끝까지 정리해온 사람",
+  headline: "사람을 만나고, 상황을 이해하고, 필요한 정보를 연결해왔습니다.",
   subheadline:
-    "제한된 시간 안에서 우선순위를 세우고, 필요한 일을 끝까지 완수하는 법을 배웠습니다.",
+    "CX·BD·운영 현장에서 쌓은 방식으로 채용 상담에 기여하고 싶습니다.",
 };
 
 export const landingVisualConfig: LandingVisualConfig = {
@@ -67,16 +67,16 @@ export type ProfileBadge = {
 export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
   left: {
     label: "RESUME",
-    headline: "학교와 현장을 병행하며, 낯선 문제도 끝까지 정리해온 사람",
+    headline: "현장에서 쌓은 경험과 방식",
     description:
-      "학교와 실무를 병행하며 제한된 시간 안에서 우선순위를 세우고, 필요한 일을 끝까지 완수하는 법을 배웠습니다. 그 과정에서 직접 느낀 고민과 시행착오를 바탕으로, 비슷한 상황에 있는 사람들의 준비와 선택을 돕고 싶습니다.",
+      "고객 응대, 행사 운영, 데이터 정리 — 역할은 달랐지만 핵심은 같았습니다. 사람의 상황을 파악하고, 필요한 정보를 정리해서 전달하는 일이었습니다.",
     href: "/resume",
   },
   right: {
     label: "PORTFOLIO",
-    headline: "실행으로 남긴 프로젝트와 기록",
+    headline: "실행으로 남긴 프로젝트들",
     description:
-      "CRM, 세일즈, 운영, 고객 커뮤니케이션 경험을 바탕으로 실제 업무에서 개선을 만들었습니다.",
+      "각 프로젝트에서 어떻게 문제를 정의하고, 무엇을 만들었는지 기록했습니다.",
     href: "/portfolio",
   },
 };

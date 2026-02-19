@@ -19,9 +19,9 @@ type EducationItem = {
 };
 
 const summaryBullets = [
-  "반복되는 업무를 분류하고 정리해, 팀이 같은 기준으로 움직일 수 있도록 도왔습니다.",
-  "운영 데이터를 보기 쉽게 정리하고, 의사결정에 필요한 정보를 빠르게 공유했습니다.",
-  "고객/지원자/내부 이해관계자와의 소통 경험을 바탕으로, 상황을 정리해 전달하는 역할을 해왔습니다.",
+  "고객과 직접 소통하며 문제를 파악하고, 그 내용을 팀과 이해관계자가 쓸 수 있는 형태로 정리했습니다.",
+  "구직자에게는 준비 방향을 구체화하고, 기업에게는 후보자 정보를 이해하기 쉬운 형태로 전달하겠습니다.",
+  "반복 패턴을 묶어 운영 구조로 만드는 일 — CX에서 했던 방식 그대로 채용 운영에 적용할 수 있습니다.",
 ];
 
 const experiences: ExperienceItem[] = [
@@ -140,7 +140,7 @@ export default function ResumePage() {
                   Profile
                 </p>
                 <ul className="text-foreground space-y-2 text-[13px] leading-relaxed">
-                  <li>사람·고객·팀을 상대하는 일을 해왔습니다. 주어진 조건 안에서 우선순위를 세우고, 반복되는 일을 정리해 더 나은 흐름을 만들었습니다.</li>
+                  <li>고객 응대·운영·BD 현장에서 상황을 파악하고 정보를 정리하는 일을 해왔습니다. 이 방식을 채용 상담에 쓰고 싶습니다.</li>
                 </ul>
               </div>
 
@@ -172,7 +172,7 @@ export default function ResumePage() {
               <div className="border-border mb-6 border-b pb-5">
                 <SectionTitle>Summary</SectionTitle>
                 <p className="text-foreground mb-3 text-sm leading-relaxed">
-                  현장에서 고객/팀과 부딪히며 생기는 문제를 정리하고, 실행 가능한 형태로 바꾸는 일을 해왔습니다. 학교와 실무를 병행하면서 제한된 시간·리소스 안에서 성과를 내기 위해 우선순위와 커뮤니케이션의 중요성을 배웠습니다. 이런 경험을 바탕으로, 구직자 입장에서는 준비 방향을 정리하고 기업 입장에서는 후보자 정보를 이해하기 쉽게 정리하는 일에 기여하고 싶습니다.
+                  CX 응대, 행사 운영, 데이터 대시보드, SI 프로젝트 — 역할은 매번 달랐지만, 하는 일의 구조는 같았습니다. 상대의 상황을 빠르게 파악하고, 흩어진 정보를 정리해서, 필요한 형태로 전달하는 것. 채용 상담도 같은 구조라고 생각합니다.
                 </p>
                 <ul className="space-y-2">
                   {summaryBullets.map((bullet) => (
