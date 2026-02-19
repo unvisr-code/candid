@@ -50,7 +50,7 @@ function NarrativeStep({
   return (
     <div className="flex gap-3 text-sm">
       <span
-        className={`mt-0.5 w-[120px] shrink-0 font-semibold ${accent ? "text-accent" : "text-foreground/60"}`}
+        className={`mt-0.5 w-[100px] shrink-0 font-semibold sm:w-[120px] ${accent ? "text-accent" : "text-foreground/60"}`}
       >
         {label}
       </span>

@@ -144,7 +144,7 @@ export default function ResumePage() {
 
         <section className="border-border bg-surface overflow-hidden rounded-2xl border shadow-[0_12px_36px_rgba(18,18,18,0.08)]">
           <div className="grid grid-cols-1 lg:grid-cols-[320px_minmax(0,1fr)]">
-            <aside className="border-border bg-[#fcfcfc] px-7 py-8 lg:border-r">
+            <aside className="border-border border-b bg-[#fcfcfc] px-7 py-8 lg:border-b-0 lg:border-r">
               <div>
                 <Image
                   src="/jun.jpg"

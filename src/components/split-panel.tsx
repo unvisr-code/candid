@@ -78,8 +78,8 @@ export function SplitPanel({ data, side, delay = 0 }: SplitPanelProps) {
       <motion.div
         className={`relative z-10 flex h-full flex-col justify-center gap-4 pb-[5vh] ${
           isLeft
-            ? "ml-auto mr-[clamp(130px,15vw,220px)]"
-            : "mr-auto ml-[clamp(130px,15vw,220px)]"
+            ? "mx-auto md:ml-auto md:mr-[clamp(130px,15vw,220px)]"
+            : "mx-auto md:mr-auto md:ml-[clamp(130px,15vw,220px)]"
         } max-w-[360px] px-6 md:px-0`}
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: isHovered ? -4 : 0 }}

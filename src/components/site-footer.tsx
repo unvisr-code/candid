@@ -23,7 +23,7 @@ export function SiteFooter({ className, variant = "default" }: SiteFooterProps) 
       >
         <div
           id="contact"
-          className="mx-auto flex h-[var(--landing-footer-height)] w-full max-w-[1280px] items-center justify-center overflow-hidden px-3 text-[10px] font-medium tracking-[0.02em] whitespace-nowrap text-[rgba(23,23,23,0.68)] sm:px-6 sm:text-xs"
+          className="mx-auto flex h-[var(--landing-footer-height)] w-full max-w-[1280px] flex-wrap items-center justify-center overflow-hidden px-3 text-[10px] font-medium tracking-[0.02em] text-[rgba(23,23,23,0.68)] sm:px-6 sm:text-xs"
         >
           <a
             href={`mailto:${siteContact.email}`}
