@@ -9,7 +9,7 @@ type ExperienceItem = {
   period: string;
   role: string;
   mission: string;
-  action: string;
+  actions: string[];
   impact: string;
 };
 
@@ -19,9 +19,9 @@ type EducationItem = {
 };
 
 const summaryBullets = [
-  "주니어 관점의 고민을 상황/우선순위/다음 행동으로 정리할 수 있습니다.",
-  "B2B 고객 문의/요구를 구조화해 팀에 전달하며 오해를 줄였습니다.",
-  "기업에 필요한 데이터를 정리·가공해 의사결정 가능한 형태로 제공했습니다.",
+  "학업과 실무를 병행하며 우선순위를 빠르게 판단했고, 서비스 흐름을 데이터 기준으로 분해해 전환 구조를 정리해 왔습니다.",
+  "B2B 고객의 요구를 기능·지표·우선순위 기준으로 재정의해 팀이 이해하기 쉬운 언어로 전달해 왔습니다.",
+  "수집된 데이터를 그대로 두지 않고, 의사결정에 쓸 수 있는 형태로 가공·정리해 공유해 왔습니다.",
 ];
 
 const experiences: ExperienceItem[] = [
@@ -30,54 +30,71 @@ const experiences: ExperienceItem[] = [
     period: "2025.12 ~ 현재",
     role: "Founder",
     mission:
-      "고객이 실제로 막히는 지점을 빠르게 파악하고, 짧은 주기로 실행·검증해야 했습니다.",
-    action:
-      "고객 문제/요구를 구조화해 MVP 범위를 정리하고, 우선순위를 나눠 팀이 바로 만들고 테스트할 수 있게 정리했습니다.",
+      "AI 기반 바이브코딩 환경이 확산되면서, 소규모 팀도 빠르게 웹/앱을 구현할 수 있는 시점이라고 판단했습니다. 기존 SI 시장의 높은 비용·긴 개발 기간 구조와 달리, 더 짧은 사이클로 실험 가능한 방식에 기회가 있다고 보았습니다.",
+    actions: [
+      "바이브코딩을 활용해 웹/앱 MVP를 구현하는 프로세스를 직접 설계하고 실행",
+      "요구사항을 기능 단위로 분해해 범위·우선순위를 정의",
+      "클라이언트 요청을 기능/일정/단계 기준으로 정리해 개발 문서로 관리",
+      "2주 단위 구현–피드백 사이클을 기준으로 작업 흐름 정리",
+    ],
     impact:
-      "프로젝트를 확보했고, 경험을 재사용 가능한 문서/콘텐츠로 축적 중입니다.",
+      "LeanUP의 웹/앱 SI 작업 방식을 '빠른 구현–짧은 피드백–재정의' 구조로 정리하며 운영 기준을 만들어가고 있습니다.",
   },
   {
     org: "(주) 커리어리 (시소)",
     period: "2025.07 ~ 현재",
     role: "Business Development",
     mission:
-      "파트너/내부 협업 과정에서 요구사항과 진행 상황이 분산되기 쉬웠습니다.",
-    action:
-      "요구사항/일정/결정사항을 한 곳에 모아 정리하고, 운영 중 발생하는 이슈를 기록해 다음 실행과 개선으로 연결했습니다.",
+      "채용 플랫폼이 AI 기반 채용 에이전트 방향으로 개편되며, 데이터 추적·분석·운영 구조를 다시 설계해야 하는 시점이었습니다. 서비스 개편과 함께 사용자 행동 데이터, 전환 흐름, 이벤트 기준을 정리할 필요가 있었습니다.",
+    actions: [
+      "채용 AI 에이전트 흐름에 맞춰 사용자 여정 및 핵심 이벤트 구조 정리",
+      "데이터 추적 기준 정의 및 분석 환경 셋업 지원(GA4, 이벤트 구조 정리 등)",
+      "미팅/결정사항을 기능·데이터 기준으로 재정리해 다음 액션으로 연결",
+      "행사 운영 및 프로그램 기획 지원, 운영 체크리스트·진행 흐름 정리",
+      "B2B 제안 및 사업 기획 과정에서 구조·메시지·자료 정리",
+    ],
     impact:
-      "운영 체크리스트가 개선되고 커뮤니케이션 누락이 줄었습니다.",
+      "채용 AI 에이전트 전환 과정에서 사용자 여정–이벤트–전환 구조를 데이터 기준으로 정리하고, 서비스 운영이 지표 기반으로 돌아갈 수 있는 추적 체계를 정착시키고 있습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.08 ~ 2024.12",
     role: "CX Manager",
     mission:
-      "B2B 고객 문의가 늘며, 응대 품질과 내부 전달의 일관성이 중요했습니다.",
-    action:
-      "문의/이슈를 유형화하고 우선순위를 정해 팀이 바로 처리 가능한 형태로 정리했습니다. 내부 공유 문서/가이드/템플릿을 정비해 커뮤니케이션 누락을 줄였습니다.",
+      "드론 기반 B2B 솔루션을 제공하는 환경에서, 고객 문의는 기술적 맥락과 현장 상황을 함께 이해해야 했습니다.",
+    actions: [
+      "고객 문의를 기술/운영/계약 이슈 등으로 분류해 내부 전달",
+      "현장 상황·제약 조건을 정리해 팀이 이해할 수 있는 언어로 재구성",
+      "반복 문의를 문서화해 팀이 참고할 수 있는 기준으로 정리",
+      "응대 과정에서 발생한 이슈를 기록해 후속 대응에 반영",
+    ],
     impact:
-      "응대 흐름이 안정화되고, 반복 이슈 대응의 일관성이 높아졌습니다.",
+      "고객 요구가 단순 전달이 아니라, 팀이 바로 이해할 수 있는 형태로 공유되도록 정리 기준을 유지했습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.05 ~ 2022.07",
     role: "CS Intern",
     mission:
-      "반복 문의 대응이 많고 처리 방식이 달라 효율이 떨어졌습니다.",
-    action:
-      "반복 질문을 묶어 템플릿과 체크리스트로 표준화해 초기 대응 속도와 품질을 맞췄습니다.",
-    impact: "반복 업무가 단순화되고 대응 품질이 안정화되었습니다.",
+      "초기 CS 단계에서 반복 문의와 처리 기준의 차이로 응대 흐름이 일관되지 않은 부분이 있었습니다.",
+    actions: [
+      "반복 질문을 유형화해 응대 기준 초안 정리",
+      "기본 응대 흐름을 체크리스트 형태로 문서화",
+      "내부 참고용 FAQ 형태로 정리",
+    ],
+    impact:
+      "CS 응대 경험을 바탕으로 '문의 → 분류 → 전달 → 기록'의 기본 구조를 체득했습니다.",
   },
 ];
 
 const educations: EducationItem[] = [
   {
     name: "세종대학교 나노신소재공학과",
-    status: "휴학 예정",
+    status: "재학 (휴학 예정)",
   },
   {
     name: "세종대학교 융합창업연계전공",
-    status: "휴학 예정",
+    status: "재학 (휴학 예정)",
   },
   {
     name: "한국디지털미디어고등학교",
@@ -109,19 +126,19 @@ export default function ResumePage() {
             href="/"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            Back to Landing
+            홈
           </Link>
           <Link
             href="/portfolio"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            Go Portfolio
+            포트폴리오
           </Link>
           <Link
             href="/why-candid"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            Why Candid
+            지원 동기
           </Link>
         </div>
 
@@ -151,7 +168,8 @@ export default function ResumePage() {
                   Profile
                 </p>
                 <ul className="text-foreground space-y-2 text-[13px] leading-relaxed">
-                  <li>학업과 실무를 병행하며 주니어의 고민을 현실적으로 이해하고, B2B 고객 응대와 데이터 정리 경험으로 고객–팀 사이를 연결해 실행을 만들어왔습니다.</li>
+                  <li>서비스와 조직이 빠르게 변하는 환경에서, 흐름을 데이터 기준으로 다시 정의하는 역할을 해 왔습니다.</li>
+                  <li>B2B 고객 요구를 기능·지표 단위로 재정리하고, 사용자 행동 데이터를 기반으로 운영 구조를 맞추는 일을 해 왔습니다.</li>
                 </ul>
               </div>
 
@@ -224,7 +242,11 @@ export default function ResumePage() {
                         </div>
                         <div className="flex gap-2">
                           <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Contribution</span>
-                          <p className="text-foreground/80">{experience.action}</p>
+                          <ul className="text-foreground/80 list-disc space-y-0.5 pl-4">
+                            {experience.actions.map((a) => (
+                              <li key={a}>{a}</li>
+                            ))}
+                          </ul>
                         </div>
                         <div className="flex gap-2">
                           <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Outcome</span>

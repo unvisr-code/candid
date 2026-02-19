@@ -22,7 +22,7 @@ export function WhyCandidIntro() {
 
       <h1 className="text-foreground mt-4 text-2xl font-bold tracking-[-0.02em] sm:text-3xl">
         <BlurText
-          text="주니어의 고민을 정리하고, 기업의 필요를 구조화해 서로를 더 잘 이해하게 돕고 싶습니다."
+          text="주니어의 고민을 정리하고, 팀이 이해할 수 있는 형태로 전달하는 일을 하고 싶습니다."
           animateBy="words"
           delay={60}
           className="inline"
@@ -30,15 +30,15 @@ export function WhyCandidIntro() {
       </h1>
 
       <p className="text-muted mt-5 max-w-2xl text-sm leading-relaxed sm:text-base">
-        저는 학업과 실무를 병행하며, 주니어가 마주하는 고민을 &quot;현실의
-        시간표&quot; 위에서 다뤄봤습니다. 동시에 B2B 고객 응대 현장에서는 질문과
-        요구가 어디서 생기는지, 어떤 정보가 누락될 때 일이 꼬이는지도 가까이에서
-        봤습니다.
+        저는 학업과 실무를 병행하면서, 주니어 입장에서 무엇이
+        막히는지(시간·정보·우선순위)를 현실적으로 체감했습니다. 또 B2B 고객 응대
+        현장에서, 요청이 흩어지면 커뮤니케이션 비용이 커지고 실행이 느려질 수
+        있다는 것도 가까이에서 봤습니다.
       </p>
       <p className="text-muted mt-3 max-w-2xl text-sm leading-relaxed sm:text-base">
-        그래서 제가 반복해온 일은 단순합니다. 사람의 고민을 정리하고, 기업의
-        요구를 구조화하고, 필요한 데이터를 다듬어 팀이 실행할 수 있게 만드는 것.
-        캔디드에서는 이 강점을 더 많은 연결과 운영에 적용해보고 싶습니다.
+        그래서 저는 정보와 요청사항을 정리해 공유하고, 필요한 데이터는 의사결정
+        가능한 형태로 가공해 팀이 더 빠르게 움직일 수 있도록 돕는 역할을 해보고
+        싶습니다.
       </p>
     </motion.section>
   );
