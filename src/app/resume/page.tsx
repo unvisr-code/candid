@@ -19,9 +19,9 @@ type EducationItem = {
 };
 
 const summaryBullets = [
-  "고객과 직접 소통하며 문제를 파악하고, 그 내용을 팀과 이해관계자가 쓸 수 있는 형태로 정리했습니다.",
-  "구직자에게는 준비 방향을 구체화하고, 기업에게는 후보자 정보를 이해하기 쉬운 형태로 전달하겠습니다.",
-  "반복 패턴을 묶어 운영 구조로 만드는 일 — CX에서 했던 방식 그대로 채용 운영에 적용할 수 있습니다.",
+  "주니어 관점의 고민을 상황/우선순위/다음 행동으로 정리할 수 있습니다.",
+  "B2B 고객 문의/요구를 구조화해 팀에 전달하며 오해를 줄였습니다.",
+  "기업에 필요한 데이터를 정리·가공해 의사결정 가능한 형태로 제공했습니다.",
 ];
 
 const experiences: ExperienceItem[] = [
@@ -29,47 +29,58 @@ const experiences: ExperienceItem[] = [
     org: "창업가 (LEANUP)",
     period: "2025.12 ~ 현재",
     role: "Founder",
-    mission: "바이브코딩으로 웹사이트 제작은 쉬워졌지만, 실제로 필요한 사람들에게는 여전히 '전문가의 도움'이 필요한 구간이 남아있다고 느꼈습니다.",
-    action: "해당 간극을 줄이기 위해 소규모 SI 프로젝트를 수행했고, 동시에 '누구나 바이브코딩을 시작할 수 있는' 교육형 프로그램을 운영하고 있습니다.",
-    impact: "클라이언트 5건을 확보했고, 프로젝트 수행 경험을 교육 콘텐츠/운영 방식으로 재정리하고 있습니다.",
+    mission:
+      "고객이 실제로 막히는 지점을 빠르게 파악하고, 짧은 주기로 실행·검증해야 했습니다.",
+    action:
+      "고객 문제/요구를 구조화해 MVP 범위를 정리하고, 우선순위를 나눠 팀이 바로 만들고 테스트할 수 있게 정리했습니다.",
+    impact:
+      "프로젝트를 확보했고, 경험을 재사용 가능한 문서/콘텐츠로 축적 중입니다.",
   },
   {
     org: "(주) 커리어리 (시소)",
     period: "2025.07 ~ 현재",
     role: "Business Development",
-    mission: "커리어리 플랫폼의 사업 성장을 위해, 현장에서 필요한 정보를 빠르게 정리하고 실행 가능한 형태로 만드는 일이 중요했습니다.",
-    action: "행사/프로그램 운영을 지원했고, 참여자 응대 및 운영 흐름 정리에 참여했습니다.",
-    impact: "프로그램 운영 과정에서 발생하는 이슈를 정리해 재발을 줄였고, 운영 효율을 높이는 방식으로 기여했습니다.",
+    mission:
+      "파트너/내부 협업 과정에서 요구사항과 진행 상황이 분산되기 쉬웠습니다.",
+    action:
+      "요구사항/일정/결정사항을 한 곳에 모아 정리하고, 운영 중 발생하는 이슈를 기록해 다음 실행과 개선으로 연결했습니다.",
+    impact:
+      "운영 체크리스트가 개선되고 커뮤니케이션 누락이 줄었습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.08 ~ 2024.12",
     role: "CX Manager",
-    mission: "SaaS 제품의 고객이 늘어나면서, 문의 응대·온보딩·이슈 대응 전반을 담당하는 CX 역할이 필요했습니다.",
-    action: "채널톡/전화/이메일로 들어오는 고객 문의를 직접 응대하고, 온보딩 가이드 작성, 유저가이드 리뉴얼, 챗봇 시나리오 설계, 운영 데이터 대시보드 구축, 업무 자동화 등 CX 전반의 과제를 주도했습니다.",
-    impact: "고객 응대 품질을 안정화하고 팀의 운영 부담을 줄이는 데 기여했습니다. 해외 리서치/개발 팀과 협업하며 한국 사업부를 대표해 요구사항을 정리하고 커뮤니케이션을 수행했습니다.",
+    mission:
+      "B2B 고객 문의가 늘며, 응대 품질과 내부 전달의 일관성이 중요했습니다.",
+    action:
+      "문의/이슈를 유형화하고 우선순위를 정해 팀이 바로 처리 가능한 형태로 정리했습니다. 내부 공유 문서/가이드/템플릿을 정비해 커뮤니케이션 누락을 줄였습니다.",
+    impact:
+      "응대 흐름이 안정화되고, 반복 이슈 대응의 일관성이 높아졌습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.05 ~ 2022.07",
     role: "CS Intern",
-    mission: "CS 업무에서 반복 작업이 많아 처리 속도와 일관성이 흔들렸습니다.",
-    action: "반복 업무를 정리하고, 자동화/표준화로 처리 흐름을 단순화했습니다.",
-    impact: "업무 안정화에 기여했고, 이후 정규직 전환으로 이어졌습니다.",
+    mission:
+      "반복 문의 대응이 많고 처리 방식이 달라 효율이 떨어졌습니다.",
+    action:
+      "반복 질문을 묶어 템플릿과 체크리스트로 표준화해 초기 대응 속도와 품질을 맞췄습니다.",
+    impact: "반복 업무가 단순화되고 대응 품질이 안정화되었습니다.",
   },
 ];
 
 const educations: EducationItem[] = [
   {
     name: "세종대학교 나노신소재공학과",
-    status: "재학 (휴학)",
+    status: "휴학 예정",
   },
   {
     name: "세종대학교 융합창업연계전공",
-    status: "재학 (휴학)",
+    status: "휴학 예정",
   },
   {
-    name: "한국디지털미디어고등학교 해킹방어과",
+    name: "한국디지털미디어고등학교",
     status: "졸업",
   },
 ];
@@ -140,7 +151,7 @@ export default function ResumePage() {
                   Profile
                 </p>
                 <ul className="text-foreground space-y-2 text-[13px] leading-relaxed">
-                  <li>고객 응대·운영·BD 현장에서 상황을 파악하고 정보를 정리하는 일을 해왔습니다. 이 방식을 채용 상담에 쓰고 싶습니다.</li>
+                  <li>학업과 실무를 병행하며 주니어의 고민을 현실적으로 이해하고, B2B 고객 응대와 데이터 정리 경험으로 고객–팀 사이를 연결해 실행을 만들어왔습니다.</li>
                 </ul>
               </div>
 
@@ -171,9 +182,6 @@ export default function ResumePage() {
             <section className="px-6 py-8 sm:px-8">
               <div className="border-border mb-6 border-b pb-5">
                 <SectionTitle>Summary</SectionTitle>
-                <p className="text-foreground mb-3 text-sm leading-relaxed">
-                  CX 응대, 행사 운영, 데이터 대시보드, SI 프로젝트 — 역할은 매번 달랐지만, 하는 일의 구조는 같았습니다. 상대의 상황을 빠르게 파악하고, 흩어진 정보를 정리해서, 필요한 형태로 전달하는 것. 채용 상담도 같은 구조라고 생각합니다.
-                </p>
                 <ul className="space-y-2">
                   {summaryBullets.map((bullet) => (
                     <li
@@ -211,15 +219,15 @@ export default function ResumePage() {
                       </p>
                       <div className="space-y-1.5 text-[13px] leading-relaxed">
                         <div className="flex gap-2">
-                          <span className="text-accent shrink-0 font-semibold">Context</span>
+                          <span className="text-accent w-[88px] shrink-0 font-semibold">Context</span>
                           <p className="text-foreground/80">{experience.mission}</p>
                         </div>
                         <div className="flex gap-2">
-                          <span className="text-foreground/50 shrink-0 font-semibold">Contribution</span>
+                          <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Contribution</span>
                           <p className="text-foreground/80">{experience.action}</p>
                         </div>
                         <div className="flex gap-2">
-                          <span className="text-foreground/50 shrink-0 font-semibold">Outcome</span>
+                          <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Outcome</span>
                           <p className="text-foreground/80">{experience.impact}</p>
                         </div>
                       </div>

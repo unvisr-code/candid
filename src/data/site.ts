@@ -35,7 +35,7 @@ export const siteContact: SiteContact = {
 export const heroContent: HeroContent = {
   headline: "사람을 만나고, 상황을 이해하고, 필요한 정보를 연결해왔습니다.",
   subheadline:
-    "CX·BD·운영 현장에서 쌓은 방식으로 채용 상담에 기여하고 싶습니다.",
+    "이 경험을 바탕으로, 사람과 조직이 더 잘 연결되는 과정에 기여하고 싶습니다.",
 };
 
 export const landingVisualConfig: LandingVisualConfig = {
@@ -56,6 +56,7 @@ export type SplitPanel = {
   headline: string;
   description: string;
   href: string;
+  ctaLabel?: string;
 };
 
 export type ProfileBadge = {
@@ -67,17 +68,19 @@ export type ProfileBadge = {
 export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
   left: {
     label: "RESUME",
-    headline: "현장에서 쌓은 경험과 방식",
+    headline: "고객과 팀 사이에서,\n정보를 정리해\n실행을 만드는 사람",
     description:
-      "고객 응대, 행사 운영, 데이터 정리 — 역할은 달랐지만 핵심은 같았습니다. 사람의 상황을 파악하고, 필요한 정보를 정리해서 전달하는 일이었습니다.",
+      "주니어의 고민을 현실적으로 이해하고, B2B 고객 응대와 데이터 정리로 고객–팀 사이를 연결해왔습니다.",
     href: "/resume",
+    ctaLabel: "Résumé 보기",
   },
   right: {
     label: "PORTFOLIO",
     headline: "실행으로 남긴 프로젝트들",
     description:
-      "각 프로젝트에서 어떻게 문제를 정의하고, 무엇을 만들었는지 기록했습니다.",
+      "어떻게 정리해 다음 액션이 생겼는지를 기록했습니다.",
     href: "/portfolio",
+    ctaLabel: "프로젝트 보기",
   },
 };
 

@@ -4,14 +4,7 @@ import { useState } from "react";
 import { ProjectSection } from "@/components/portfolio/project-section";
 import type { PortfolioProject } from "@/data/portfolio";
 
-const categories = [
-  "전체",
-  "Recruiting Ops / CRM",
-  "Sales & Pipeline",
-  "Analytics",
-  "Automation / Tooling",
-  "Content / Community",
-] as const;
+const categories = ["전체", "CX", "운영", "데이터/자동화", "BD"] as const;
 
 export function PortfolioFilter({
   projects,

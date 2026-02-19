@@ -133,6 +133,9 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
             <NarrativeStep label="내 역할" text={project.approach} />
           )}
           <NarrativeStep label="무엇이 달라졌는지" text={project.summary} />
+          {project.execution && (
+            <NarrativeStep label="정리 방법" text={project.execution} />
+          )}
         </div>
       </div>
 

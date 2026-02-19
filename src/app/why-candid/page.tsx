@@ -49,23 +49,26 @@ export default function WhyCandidPage() {
           <div className="bg-white border-border rounded-xl border p-6 sm:p-8">
             <div className="text-foreground/80 space-y-4 text-sm leading-relaxed sm:text-base">
               <p>
-                Angelswing에서 고객 문의를 하루에 수십 건씩 응대하면서, 자주 반복되는 패턴이 보이기 시작했습니다. 질문의 내용은 달랐지만 결국 &quot;내 상황에서 어떻게 하면 되는지&quot;를 알고 싶은 것이었습니다.
+                안녕하세요, 오영준입니다.
               </p>
               <p>
-                채용 상담도 같은 구조라고 생각합니다. 구직자에게는 &quot;지금 상황에서 어떻게 준비하면 되는지&quot;를, 기업에게는 &quot;이 후보자가 우리에게 맞는지&quot;를 정리해 연결하는 일. 캔디드가 그 역할을 하는 곳이라고 봤습니다.
+                저는 학업과 실무를 병행하며 주니어가 마주하는 고민을 현실적으로
+                이해하게 됐고, B2B 고객 응대와 내부 협업을 통해 고객의 말이 팀의
+                실행으로 이어지기 위해 필요한 &apos;정리&apos;가 무엇인지
+                배웠습니다. 또한 기업에 필요한 데이터를 정리·가공해 공유 가능한
+                형태로 만들며, 의사결정과 실행이 빨라지는 경험을 해왔습니다.
               </p>
               <p>
-                고객 응대, 행사 운영, 데이터 정리, SI 프로젝트 — 모든 경험이 결국 같은 일이었습니다. 상대의 상황을 파악하고, 정보를 정리해서, 맞는 형태로 전달하는 것. 이 방식을 채용 상담에 쓰고 싶습니다.
+                캔디드에서는 주니어의 고민을 상황과 기준으로 정리해 다음 행동으로
+                연결하고, 기업의 필요는 구조화된 정보와 데이터로 전달해 서로가 더
+                잘 이해하고 연결될 수 있도록 돕고 싶습니다.
               </p>
+              <p>감사합니다.</p>
             </div>
             <p className="text-muted mt-6 text-right text-sm">오영준 드림</p>
           </div>
         </section>
 
-        {/* 마무리 */}
-        <p className="text-muted py-12 text-center text-sm leading-relaxed sm:py-16">
-          지금까지 해온 일의 구조를, 채용이라는 현장에서 계속 이어가고 싶습니다.
-        </p>
       </main>
       <SiteFooter />
     </div>

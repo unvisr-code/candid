@@ -22,7 +22,7 @@ export function WhyCandidIntro() {
 
       <h1 className="text-foreground mt-4 text-2xl font-bold tracking-[-0.02em] sm:text-3xl">
         <BlurText
-          text="채용은 구직자와 기업 양쪽을 동시에 이해해야 제대로 연결할 수 있다고 생각합니다."
+          text="주니어의 고민을 정리하고, 기업의 필요를 구조화해 서로를 더 잘 이해하게 돕고 싶습니다."
           animateBy="words"
           delay={60}
           className="inline"
@@ -30,9 +30,15 @@ export function WhyCandidIntro() {
       </h1>
 
       <p className="text-muted mt-5 max-w-2xl text-sm leading-relaxed sm:text-base">
-        CX 현장에서 고객의 상황을 파악하고, BD에서 기업과 소통하고, SI에서
-        요구사항을 정리했습니다. 채용 상담의 구조도 같다고 느꼈습니다 — 양쪽
-        상황을 이해하고, 필요한 정보를 연결하는 일.
+        저는 학업과 실무를 병행하며, 주니어가 마주하는 고민을 &quot;현실의
+        시간표&quot; 위에서 다뤄봤습니다. 동시에 B2B 고객 응대 현장에서는 질문과
+        요구가 어디서 생기는지, 어떤 정보가 누락될 때 일이 꼬이는지도 가까이에서
+        봤습니다.
+      </p>
+      <p className="text-muted mt-3 max-w-2xl text-sm leading-relaxed sm:text-base">
+        그래서 제가 반복해온 일은 단순합니다. 사람의 고민을 정리하고, 기업의
+        요구를 구조화하고, 필요한 데이터를 다듬어 팀이 실행할 수 있게 만드는 것.
+        캔디드에서는 이 강점을 더 많은 연결과 운영에 적용해보고 싶습니다.
       </p>
     </motion.section>
   );

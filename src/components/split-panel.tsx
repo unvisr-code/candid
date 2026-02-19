@@ -143,16 +143,10 @@ export function SplitPanel({ data, side, delay = 0 }: SplitPanelProps) {
             delay: (delay + 400) / 1000,
           }}
         >
-          <Magnet padding={40} magnetStrength={0.3}>
-            <motion.span
-              className="inline-flex items-center gap-2 rounded-full border border-[rgba(236,125,49,0.3)] px-4 py-2 text-sm font-semibold text-[var(--accent)] transition-colors group-hover:border-[var(--accent-strong)] group-hover:bg-[rgba(236,125,49,0.06)]"
-              whileHover={{ x: 4 }}
-              transition={{ type: "spring", stiffness: 300, damping: 20 }}
-            >
-              자세히 보기
+          <span className="inline-flex items-center gap-2 rounded-full border border-[rgba(236,125,49,0.3)] px-4 py-2 text-sm font-semibold text-[var(--accent)] transition-colors group-hover:border-[var(--accent-strong)] group-hover:bg-[rgba(236,125,49,0.06)]">
+              {data.ctaLabel ?? "자세히 보기"}
               <ArrowIcon />
-            </motion.span>
-          </Magnet>
+            </span>
         </motion.div>
       </motion.div>
 
