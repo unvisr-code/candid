@@ -93,6 +93,7 @@ function buildProjects() {
       `    extensionView: ${lit(sections.extensionView || "")},`,
       `    category: ${lit(m.category || "")},`,
       `    candidConnection: ${lit(sections.candidConnection || "")},`,
+      `    jdTags: ${lit(m.jdTags || [])},`,
       `  }`,
     ].join("\n");
   });
@@ -175,6 +176,7 @@ export type PortfolioProject = {
   extensionView: string;
   category: string;
   candidConnection: string;
+  jdTags: string[];
 };
 
 export type CapabilityDetail = {

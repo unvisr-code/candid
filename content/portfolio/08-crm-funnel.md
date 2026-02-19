@@ -1,7 +1,10 @@
 ---
 id: crm-funnel
 evdId: EVD--5
-order: 8
+order: 9
+jdTags:
+  - "#세일즈"
+  - "#데이터분석"
 org: 세종대학교 총동아리연합회
 period: "2024.01 ~ 2024.12"
 title: 학생 대상 CRM 기반 홍보·참여 퍼널 설계

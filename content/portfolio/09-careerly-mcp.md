@@ -1,7 +1,11 @@
 ---
 id: careerly-mcp
 evdId: EVD--6
-order: 9
+order: 1
+jdTags:
+  - "#마켓리서치"
+  - "#데이터분석"
+  - "#매칭"
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 MCP

@@ -76,7 +76,7 @@ export function SplitPanel({ data, side, delay = 0 }: SplitPanelProps) {
 
       {/* Panel content — positioned towards the divider */}
       <motion.div
-        className={`relative z-10 flex h-full flex-col justify-center gap-4 pb-[5vh] ${
+        className={`relative z-10 flex h-full flex-col justify-center gap-3 pb-[3vh] md:gap-4 md:pb-[5vh] ${
           isLeft
             ? "mx-auto md:ml-auto md:mr-[clamp(130px,15vw,220px)]"
             : "mx-auto md:mr-auto md:ml-[clamp(130px,15vw,220px)]"

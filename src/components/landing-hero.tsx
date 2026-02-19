@@ -59,7 +59,7 @@ export function LandingHero() {
       {/* Main content */}
       <main className="relative z-[2] flex h-[calc(100svh-var(--landing-footer-height))] w-full flex-col md:flex-row">
         {/* Left panel - Resume */}
-        <div className="relative flex-1 min-h-[42vh] md:min-h-0">
+        <div className="relative flex-1 min-h-[36vh] md:min-h-0">
           <SplitPanel data={splitPanels.left} side="left" delay={400} />
         </div>
 
@@ -74,7 +74,7 @@ export function LandingHero() {
         </div>
 
         {/* Right panel - Portfolio */}
-        <div className="relative flex-1 min-h-[42vh] md:min-h-0">
+        <div className="relative flex-1 min-h-[36vh] md:min-h-0">
           <SplitPanel data={splitPanels.right} side="right" delay={600} />
         </div>
 
@@ -87,6 +87,9 @@ export function LandingHero() {
 
         {/* Why Candid button — bottom center */}
         <div className="pointer-events-none absolute inset-x-0 bottom-[clamp(24px,5vh,56px)] z-[30] flex justify-center">
+          <div className="absolute inset-x-0 bottom-[clamp(16px,4.5vh,48px)] z-[29] flex justify-center">
+            <div className="h-16 w-48 rounded-full bg-[rgba(236,125,49,0.08)] blur-[40px]" />
+          </div>
           <motion.div
             className="pointer-events-auto"
             initial={{ opacity: 0, y: 16 }}
@@ -95,7 +98,7 @@ export function LandingHero() {
           >
             <Link
               href="/why-candid"
-              className="inline-flex items-center gap-2 rounded-full border border-[rgba(236,125,49,0.4)] bg-[rgba(255,255,255,0.7)] px-5 py-2.5 text-xs font-semibold text-[var(--accent)] shadow-[0_4px_20px_rgba(236,125,49,0.1)] backdrop-blur-md transition-all hover:border-[var(--accent-strong)] hover:bg-[rgba(236,125,49,0.08)] hover:shadow-[0_6px_28px_rgba(236,125,49,0.18)]"
+              className="inline-flex items-center gap-2 rounded-full border border-[rgba(236,125,49,0.6)] bg-[rgba(255,255,255,0.7)] px-5 py-2.5 text-sm font-semibold text-[var(--accent)] shadow-[0_6px_24px_rgba(236,125,49,0.15)] backdrop-blur-md transition-all hover:border-[var(--accent-strong)] hover:bg-[rgba(236,125,49,0.08)] hover:shadow-[0_8px_32px_rgba(236,125,49,0.25)]"
             >
               Why Candid
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

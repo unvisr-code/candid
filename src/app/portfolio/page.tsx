@@ -21,14 +21,19 @@ export default function PortfolioPage() {
             href="/"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            Back to Landing
+            홈
           </Link>
           <Link
             href="/resume"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            Go Resume
+            이력
           </Link>
+          <span
+            className="bg-accent rounded-full px-4 py-2 text-xs font-medium text-white"
+          >
+            포트폴리오
+          </span>
           <Link
             href="/why-candid"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
@@ -49,7 +54,7 @@ export default function PortfolioPage() {
             href="/resume"
             className="bg-accent hover:bg-accent-strong rounded-full px-6 py-3 text-sm font-semibold text-white"
           >
-            View Resume
+            이력 보기
           </Link>
           <Link
             href="/why-candid"
@@ -61,7 +66,7 @@ export default function PortfolioPage() {
             href="/"
             className="border-border text-foreground hover:border-accent hover:text-accent rounded-full border px-6 py-3 text-sm font-semibold"
           >
-            Back to Landing
+            홈
           </Link>
         </div>
       </main>

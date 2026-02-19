@@ -6,7 +6,7 @@ import BlurText from "@/components/reactbits/blur-text";
 
 export function WhyCandidIntro() {
   const ref = useRef<HTMLElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.15 });
+  const isInView = useInView(ref, { once: true, margin: "0px 0px 200px 0px" });
 
   return (
     <motion.section
@@ -14,7 +14,7 @@ export function WhyCandidIntro() {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="border-border border-b py-12 sm:py-16"
+      className="border-border border-b py-8 sm:py-16"
     >
       <span className="bg-accent inline-block rounded px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">
         WHY CANDID
@@ -22,7 +22,7 @@ export function WhyCandidIntro() {
 
       <h1 className="text-foreground mt-4 text-2xl font-bold tracking-[-0.02em] sm:text-3xl">
         <BlurText
-          text="주니어의 고민을 정리하고, 팀이 이해할 수 있는 형태로 전달하는 일을 하고 싶습니다."
+          text="AI 커리어 플랫폼에서 구직자의 고민을 가까이서 봤고, 창업하며 사람이 조직을 만든다는 것을 체감했습니다. 이제 그 경험을 채용 컨설팅으로 확장하고 싶습니다."
           animateBy="words"
           delay={60}
           className="inline"
@@ -30,15 +30,7 @@ export function WhyCandidIntro() {
       </h1>
 
       <p className="text-muted mt-5 max-w-2xl text-sm leading-relaxed sm:text-base">
-        저는 학업과 실무를 병행하면서, 주니어 입장에서 무엇이
-        막히는지(시간·정보·우선순위)를 현실적으로 체감했습니다. 또 B2B 고객 응대
-        현장에서, 요청이 흩어지면 커뮤니케이션 비용이 커지고 실행이 느려질 수
-        있다는 것도 가까이에서 봤습니다.
-      </p>
-      <p className="text-muted mt-3 max-w-2xl text-sm leading-relaxed sm:text-base">
-        그래서 저는 정보와 요청사항을 정리해 공유하고, 필요한 데이터는 의사결정
-        가능한 형태로 가공해 팀이 더 빠르게 움직일 수 있도록 돕는 역할을 해보고
-        싶습니다.
+        채용 플랫폼 안쪽에서 구직자와 기업이 연결되는 흐름을 봤고, 직접 창업하며 적합한 사람 한 명이 팀의 방향을 바꾸는 것을 경험했습니다. 좋은 매칭은 스펙을 맞추는 게 아니라 사람의 맥락을 이해하는 과정이라는 확신이 생겼고, 이 일을 본업으로 하고 싶어 캔디드에 지원합니다.
       </p>
     </motion.section>
   );

@@ -2,6 +2,8 @@
 id: workflow-automation
 evdId: EVD--3
 order: 6
+jdTags:
+  - "#데이터분석"
 org: Angelswing
 period: "2024.07 ~ 2024.10"
 title: 업무 자동화 구조 설계

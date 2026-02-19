@@ -2,6 +2,9 @@
 id: ux-guide-chatbot
 evdId: EVD--4
 order: 7
+jdTags:
+  - "#후보자이해"
+  - "#커뮤니케이션"
 org: Angelswing
 period: "2023.03 ~ 2023.06"
 title: UX 기반 유저가이드 리뉴얼 & 챗봇 연계

@@ -1,7 +1,10 @@
 ---
 id: cx-automation
 evdId: EVD--1
-order: 1
+order: 3
+jdTags:
+  - "#커뮤니케이션"
+  - "#후보자이해"
 org: Angelswing
 period: "2022.09 ~ 2023.02"
 title: "고객 문의 응대 및 자동화 구조 개선"

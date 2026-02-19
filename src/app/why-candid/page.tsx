@@ -35,6 +35,11 @@ export default function WhyCandidPage() {
           >
             포트폴리오
           </Link>
+          <span
+            className="bg-accent rounded-full px-4 py-2 text-xs font-medium text-white"
+          >
+            Why Candid
+          </span>
         </div>
 
         {/* Sections */}
@@ -42,24 +47,28 @@ export default function WhyCandidPage() {
         <WhyCandidReasons />
         <WhyCandidValue />
         {/* 지원 동기 편지 */}
-        <section className="border-border border-b py-12 sm:py-16">
-          <h2 className="text-foreground mb-6 text-xl font-bold tracking-[-0.02em] sm:text-2xl">
+        <section className="border-border border-b py-8 sm:py-16">
+          <h2 className="text-foreground mb-4 text-xl font-bold tracking-[-0.02em] sm:mb-6 sm:text-2xl">
             캔디드에 지원하며
           </h2>
-          <div className="bg-white border-border rounded-xl border p-6 sm:p-8">
+          <div className="bg-[#fffaf6] border-[rgba(236,125,49,0.35)] rounded-xl border-2 p-6 shadow-[0_4px_20px_rgba(236,125,49,0.08)] sm:p-8">
             <div className="text-foreground/80 space-y-4 text-sm leading-relaxed sm:text-base">
               <p>안녕하세요, 오영준입니다.</p>
               <p>
-                저는 학업과 실무를 병행하며 주니어가 마주하는 막힘을 현실적으로
-                체감했고, B2B 고객 응대 경험을 통해 요청이 흩어질 때 실행이 늦어질
-                수 있다는 점도 가까이에서 느꼈습니다.
+                채용 컨설팅에 관심을 갖게 된 건 커리어리에서였지만, 확신이 생긴 건 LEANUP을 창업하면서였습니다.
+                팀원을 찾고, 역할을 맞추고, 프로젝트에 배치하는 과정에서 가장 몰입했던 순간이
+                &ldquo;사람을 연결하는 순간&rdquo;이었다는 걸 깨달았습니다.
               </p>
               <p>
-                그래서 저는 정보와 요청사항을 정리해 공유하고, 필요한 데이터는
-                의사결정 가능한 형태로 가공해 팀이 더 빠르게 움직일 수 있도록 돕는
-                역할을 해보고 싶습니다.
+                캔디드의 블로그와 컨설턴트 인터뷰를 읽으면서, 단순 매칭이 아니라
+                고객사의 문제를 구조적으로 진단하고 해결하는 팀이라는 것을 알게 됐습니다.
+                저도 그렇게 일하고 싶습니다.
               </p>
-              <p>감사합니다.</p>
+              <p>
+                아직 채용 컨설팅 경력은 없지만, 채용 시장의 구조를 본 경험,
+                사람의 니즈를 파악하고 전달해온 경험, 그리고 직접 창업한 경험을 가지고
+                빠르게 성장하겠습니다.
+              </p>
             </div>
             <p className="text-muted mt-6 text-right text-sm">오영준 드림</p>
           </div>

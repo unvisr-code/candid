@@ -13,7 +13,7 @@ function CapabilityCard({
   index: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isInView = useInView(ref, { once: true, margin: "0px 0px 100px 0px" });
   const linkedProject = portfolioProjects.find(
     (p) => p.evdId === cap.linkedEvdId,
   );

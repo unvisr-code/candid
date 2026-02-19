@@ -1,7 +1,9 @@
 ---
 id: leanup-edu
 evdId: EVD--10
-order: 4
+order: 8
+jdTags:
+  - "#후보자이해"
 org: LEANUP
 period: "2025.12 ~ 진행중"
 title: 린업 교육 사업

@@ -1,7 +1,10 @@
 ---
 id: careerly-dashboard
 evdId: EVD--7
-order: 10
+order: 2
+jdTags:
+  - "#데이터분석"
+  - "#마켓리서치"
 org: Careerly
 period: "2025.07 ~ 진행중"
 title: 커리어리 데이터 대시보드

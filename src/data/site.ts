@@ -68,17 +68,17 @@ export type ProfileBadge = {
 export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
   left: {
     label: "RESUME",
-    headline: "데이터로 구조를 설계하는 BD",
+    headline: "채용 시장의 구조를 경험한 BD",
     description:
-      "학업과 실무를 병행하며 현실적인 우선순위를 판단해 왔습니다. 고객의 요구를 기능과 지표 기준으로 재정리해 팀에 전달하고, 데이터는 의사결정 가능한 형태로 가공합니다.",
+      "AI 커리어 플랫폼에서 구직자들의 고민과 탐색 과정을 가까이서 살펴봤고, 직접 창업하며 사람이 조직의 성과를 결정한다는 것을 체감했습니다. 고객의 니즈를 구조화해 팀이 실행할 수 있는 형태로 전달합니다.",
     href: "/resume",
     ctaLabel: "이력 보기",
   },
   right: {
     label: "PORTFOLIO",
-    headline: "지금까지의 프로젝트들",
+    headline: "사람과 조직을 연결한 경험들",
     description:
-      "각 프로젝트에서 제가 맡은 역할, 정리 방식, 그리고 산출물을 중심으로 정리했습니다.",
+      "AI 커리어 플랫폼 BD, B2B 고객 대응, 스타트업 운영에서 문제를 정의하고 해결한 과정을 정리했습니다.",
     href: "/portfolio",
     ctaLabel: "프로젝트 보기",
   },
@@ -86,7 +86,7 @@ export const splitPanels: { left: SplitPanel; right: SplitPanel } = {
 
 export const profileBadge: ProfileBadge = {
   name: "오영준",
-  tagline: "Business Development · CX Operations",
+  tagline: "Business Development · Startup Operations",
   image: "/jun-optimized.jpg",
 };
 

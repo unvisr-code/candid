@@ -18,72 +18,65 @@ type EducationItem = {
   status: string;
 };
 
-const summaryBullets = [
-  "학업과 실무를 병행하며 우선순위를 빠르게 판단했고, 서비스 흐름을 데이터 기준으로 분해해 전환 구조를 정리해 왔습니다.",
-  "B2B 고객의 요구를 기능·지표·우선순위 기준으로 재정의해 팀이 이해하기 쉬운 언어로 전달해 왔습니다.",
-  "수집된 데이터를 그대로 두지 않고, 의사결정에 쓸 수 있는 형태로 가공·정리해 공유해 왔습니다.",
-];
-
 const experiences: ExperienceItem[] = [
-  {
-    org: "창업가 (LEANUP)",
-    period: "2025.12 ~ 현재",
-    role: "Founder",
-    mission:
-      "AI 기반 바이브코딩 환경이 확산되면서, 소규모 팀도 빠르게 웹/앱을 구현할 수 있는 시점이라고 판단했습니다. 기존 SI 시장의 높은 비용·긴 개발 기간 구조와 달리, 더 짧은 사이클로 실험 가능한 방식에 기회가 있다고 보았습니다.",
-    actions: [
-      "바이브코딩을 활용해 웹/앱 MVP를 구현하는 프로세스를 직접 설계하고 실행",
-      "요구사항을 기능 단위로 분해해 범위·우선순위를 정의",
-      "클라이언트 요청을 기능/일정/단계 기준으로 정리해 개발 문서로 관리",
-      "2주 단위 구현–피드백 사이클을 기준으로 작업 흐름 정리",
-    ],
-    impact:
-      "LeanUP의 웹/앱 SI 작업 방식을 '빠른 구현–짧은 피드백–재정의' 구조로 정리하며 운영 기준을 만들어가고 있습니다.",
-  },
   {
     org: "(주) 커리어리 (시소)",
     period: "2025.07 ~ 현재",
     role: "Business Development",
     mission:
-      "채용 플랫폼이 AI 기반 채용 에이전트 방향으로 개편되며, 데이터 추적·분석·운영 구조를 다시 설계해야 하는 시점이었습니다. 서비스 개편과 함께 사용자 행동 데이터, 전환 흐름, 이벤트 기준을 정리할 필요가 있었습니다.",
+      "AI 상담·커뮤니티·채용공고를 통합한 커리어 플랫폼에서, 구직자들이 어떤 고민을 안고 들어오고 어떤 정보를 거쳐 결정을 내리는지를 가까이서 관찰하고, 이를 서비스 개선과 사업 기획에 반영하는 것이 주요 업무였습니다.",
     actions: [
-      "채용 AI 에이전트 흐름에 맞춰 사용자 여정 및 핵심 이벤트 구조 정리",
-      "데이터 추적 기준 정의 및 분석 환경 셋업 지원(GA4, 이벤트 구조 정리 등)",
-      "미팅/결정사항을 기능·데이터 기준으로 재정리해 다음 액션으로 연결",
-      "행사 운영 및 프로그램 기획 지원, 운영 체크리스트·진행 흐름 정리",
-      "B2B 제안 및 사업 기획 과정에서 구조·메시지·자료 정리",
+      "구직자가 플랫폼에서 어떤 경로로 탐색하고 어디서 멈추는지를 행동 데이터로 파악하고, 단계별 이탈 원인을 정리",
+      "GA4 이벤트 구조를 설계하고 분석 환경을 셋업해, 구직자 행동을 지표로 모니터링할 수 있는 체계 구축",
+      "B2B 기업 고객 대상 제안·사업 기획 과정에서 고객사의 채용 니즈를 분석하고, 제안 구조와 메시지를 설계",
+      "채용 관련 행사를 운영하며, 구직자와 기업이 직접 만나는 접점을 기획",
     ],
     impact:
-      "채용 AI 에이전트 전환 과정에서 사용자 여정–이벤트–전환 구조를 데이터 기준으로 정리하고, 서비스 운영이 지표 기반으로 돌아갈 수 있는 추적 체계를 정착시키고 있습니다.",
+      "구직자들이 어떤 과정을 거쳐 고민하고 결정을 내리는지를 데이터와 현장 양쪽에서 파악하고, 이를 팀이 참고할 수 있는 기준으로 정리했습니다.",
+  },
+  {
+    org: "창업가 (LEANUP)",
+    period: "2025.10 ~ 현재",
+    role: "Founder",
+    mission:
+      "AI 바이브코딩 환경의 확산으로 소규모 팀도 빠르게 프로덕트를 구현할 수 있는 시점이라 판단했습니다. 창업 과정에서 팀원을 모으고, 각자의 강점에 맞는 역할을 정의하고, 클라이언트와의 접점을 직접 관리하는 경험을 했습니다.",
+    actions: [
+      "팀 빌딩: 4명의 팀원을 모집하고, 각자의 역량과 성향에 맞춰 세일즈/디자인/개발/기획 역할을 정의·배치",
+      "클라이언트 BD: 잠재 고객을 리서치하고, 미팅을 통해 니즈를 파악한 뒤 프로젝트 범위와 일정을 합의하여 계약 체결",
+      "프로젝트 운영: 클라이언트 요청을 기능/일정/단계 기준으로 구조화하고, 2주 단위 피드백 사이클로 작업 흐름 관리",
+      "비즈니스 모델: SI 개발 + 교육 서비스의 이중 수익 구조를 설계하고, 각 서비스별 세일즈 프로세스 정립",
+    ],
+    impact:
+      "창업 4개월 만에 복수의 클라이언트 프로젝트를 수주하며, 사람을 모으고, 역할을 정의하고, 조직이 실행하는 구조를 직접 만든 경험을 쌓았습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.08 ~ 2024.12",
     role: "CX Manager",
     mission:
-      "드론 기반 B2B 솔루션을 제공하는 환경에서, 고객 문의는 기술적 맥락과 현장 상황을 함께 이해해야 했습니다.",
+      "드론 기반 B2B 솔루션 환경에서, 고객 문의는 기술적 역량과 현장 상황을 함께 이해해야 했습니다. 고객(기업)의 진짜 니즈를 파악하고, 이를 내부 팀이 실행 가능한 형태로 전달하는 것이 핵심 역할이었습니다.",
     actions: [
-      "고객 문의를 기술/운영/계약 이슈 등으로 분류해 내부 전달",
-      "현장 상황·제약 조건을 정리해 팀이 이해할 수 있는 언어로 재구성",
-      "반복 문의를 문서화해 팀이 참고할 수 있는 기준으로 정리",
-      "응대 과정에서 발생한 이슈를 기록해 후속 대응에 반영",
+      "고객 문의를 기술/운영/계약 등 이슈 유형별로 분류하고, 각 담당 팀에 맥락을 포함해 전달하는 커뮤니케이션 구조 설계",
+      "고객의 현장 상황과 제약 조건을 파악해, 팀이 이해할 수 있는 비즈니스 언어로 재구성하여 전달",
+      "반복 문의를 패턴화하고 문서화하여, 팀 전체가 참고할 수 있는 대응 기준과 FAQ 체계 구축",
+      "응대 과정에서 발생하는 이슈를 체계적으로 기록하고, 후속 대응과 프로세스 개선에 활용",
     ],
     impact:
-      "고객 요구가 단순 전달이 아니라, 팀이 바로 이해할 수 있는 형태로 공유되도록 정리 기준을 유지했습니다.",
+      "2년 4개월간 B2B 고객의 니즈를 파악하고 내부에 전달하는 과정을 반복하며, \"고객이 말하는 것\"과 \"고객이 진짜 필요한 것\"을 구분하는 역량을 쌓았습니다.",
   },
   {
     org: "(주) Angelswing",
     period: "2022.05 ~ 2022.07",
     role: "CS Intern",
     mission:
-      "초기 CS 단계에서 반복 문의와 처리 기준의 차이로 응대 흐름이 일관되지 않은 부분이 있었습니다.",
+      "초기 CS 단계에서 반복 문의와 처리 기준의 차이로 응대 품질이 일관되지 않는 문제가 있었습니다.",
     actions: [
-      "반복 질문을 유형화해 응대 기준 초안 정리",
-      "기본 응대 흐름을 체크리스트 형태로 문서화",
-      "내부 참고용 FAQ 형태로 정리",
+      "반복 질문을 유형화하고 응대 기준 초안을 정리",
+      "기본 응대 흐름을 체크리스트로 문서화",
+      "내부 참고용 FAQ를 구축해 팀 응대 효율 향상",
     ],
     impact:
-      "CS 응대 경험을 바탕으로 '문의 → 분류 → 전달 → 기록'의 기본 구조를 체득했습니다.",
+      "CS 현장에서 '문의 → 분류 → 전달 → 기록'의 기본 구조를 체득하고, 이후 CX Manager로 승격하는 기반을 만들었습니다.",
   },
 ];
 
@@ -128,6 +121,11 @@ export default function ResumePage() {
           >
             홈
           </Link>
+          <span
+            className="bg-accent rounded-full px-4 py-2 text-xs font-medium text-white"
+          >
+            이력
+          </span>
           <Link
             href="/portfolio"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
@@ -138,13 +136,13 @@ export default function ResumePage() {
             href="/why-candid"
             className="text-muted border-border bg-surface hover:border-accent hover:text-accent rounded-full border px-4 py-2 text-xs font-medium"
           >
-            지원 동기
+            Why Candid
           </Link>
         </div>
 
         <section className="border-border bg-surface overflow-hidden rounded-2xl border shadow-[0_12px_36px_rgba(18,18,18,0.08)]">
           <div className="grid grid-cols-1 lg:grid-cols-[320px_minmax(0,1fr)]">
-            <aside className="border-border border-b bg-[#fcfcfc] px-7 py-8 lg:border-b-0 lg:border-r">
+            <aside className="border-border border-b bg-[#fcfcfc] px-5 py-6 sm:px-7 sm:py-8 lg:border-b-0 lg:border-r">
               <div>
                 <Image
                   src="/jun.jpg"
@@ -159,7 +157,7 @@ export default function ResumePage() {
                 </h1>
                 <p className="text-muted mt-1 text-[15px] font-medium">Jun</p>
                 <p className="text-foreground mt-3 text-[13px] font-medium">
-                  Business Development · CX Operations
+                  Business Development · Startup Operations
                 </p>
               </div>
 
@@ -168,8 +166,8 @@ export default function ResumePage() {
                   Profile
                 </p>
                 <ul className="text-foreground space-y-2 text-[13px] leading-relaxed">
-                  <li>서비스와 조직이 빠르게 변하는 환경에서, 흐름을 데이터 기준으로 다시 정의하는 역할을 해 왔습니다.</li>
-                  <li>B2B 고객 요구를 기능·지표 단위로 재정리하고, 사용자 행동 데이터를 기반으로 운영 구조를 맞추는 일을 해 왔습니다.</li>
+                  <li>AI 커리어 플랫폼에서 구직자들의 고민과 탐색 과정을 가까이서 살펴봤고, B2B 고객의 니즈를 팀이 실행할 수 있는 형태로 전달하는 일을 해왔습니다.</li>
+                  <li>스타트업을 직접 창업하며, 적합한 사람이 조직의 성과를 결정한다는 것을 체감했습니다.</li>
                 </ul>
               </div>
 
@@ -197,25 +195,7 @@ export default function ResumePage() {
               </div>
             </aside>
 
-            <section className="px-6 py-8 sm:px-8">
-              <div className="border-border mb-6 border-b pb-5">
-                <SectionTitle>Summary</SectionTitle>
-                <ul className="space-y-2">
-                  {summaryBullets.map((bullet) => (
-                    <li
-                      key={bullet}
-                      className="text-foreground relative pl-4 text-sm leading-relaxed"
-                    >
-                      <span
-                        className="bg-accent absolute top-[0.58rem] left-0 h-1.5 w-1.5 rounded-full"
-                        aria-hidden
-                      />
-                      {bullet}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
+            <section className="px-4 py-6 sm:px-8 sm:py-8">
               <div className="border-border mb-6 border-b pb-5">
                 <SectionTitle>Experience</SectionTitle>
                 <ul className="space-y-3">
@@ -235,21 +215,21 @@ export default function ResumePage() {
                       <p className="text-accent-strong mb-2 text-[13px] font-semibold">
                         {experience.role}
                       </p>
-                      <div className="space-y-1.5 text-[13px] leading-relaxed">
-                        <div className="flex gap-2">
-                          <span className="text-accent w-[88px] shrink-0 font-semibold">Context</span>
+                      <div className="space-y-2.5 text-[13px] leading-relaxed sm:space-y-1.5">
+                        <div className="flex flex-col gap-1 sm:flex-row sm:gap-2">
+                          <span className="text-accent font-semibold sm:w-[88px] sm:shrink-0">Context</span>
                           <p className="text-foreground/80">{experience.mission}</p>
                         </div>
-                        <div className="flex gap-2">
-                          <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Contribution</span>
+                        <div className="flex flex-col gap-1 sm:flex-row sm:gap-2">
+                          <span className="text-foreground/50 font-semibold sm:w-[88px] sm:shrink-0">Contribution</span>
                           <ul className="text-foreground/80 list-disc space-y-0.5 pl-4">
                             {experience.actions.map((a) => (
                               <li key={a}>{a}</li>
                             ))}
                           </ul>
                         </div>
-                        <div className="flex gap-2">
-                          <span className="text-foreground/50 w-[88px] shrink-0 font-semibold">Outcome</span>
+                        <div className="flex flex-col gap-1 sm:flex-row sm:gap-2">
+                          <span className="text-foreground/50 font-semibold sm:w-[88px] sm:shrink-0">Outcome</span>
                           <p className="text-foreground/80">{experience.impact}</p>
                         </div>
                       </div>

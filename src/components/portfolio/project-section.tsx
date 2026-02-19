@@ -15,7 +15,7 @@ function TagList({
   variant: "skill" | "capability";
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isInView = useInView(ref, { once: true, margin: "0px 0px 100px 0px" });
 
   return (
     <div ref={ref} className="flex flex-wrap gap-1.5">
@@ -48,9 +48,9 @@ function NarrativeStep({
   accent?: boolean;
 }) {
   return (
-    <div className="flex gap-3 text-sm">
+    <div className="flex flex-col gap-1 text-sm sm:flex-row sm:gap-3">
       <span
-        className={`mt-0.5 w-[100px] shrink-0 font-semibold sm:w-[120px] ${accent ? "text-accent" : "text-foreground/60"}`}
+        className={`font-semibold sm:mt-0.5 sm:w-[120px] sm:shrink-0 ${accent ? "text-accent" : "text-foreground/60"}`}
       >
         {label}
       </span>
@@ -61,7 +61,7 @@ function NarrativeStep({
 
 export function ProjectSection({ project }: { project: PortfolioProject }) {
   const sectionRef = useRef<HTMLElement>(null);
-  const isInView = useInView(sectionRef, { once: true, amount: 0.15 });
+  const isInView = useInView(sectionRef, { once: true, margin: "0px 0px 200px 0px" });
   const [expanded, setExpanded] = useState(false);
 
   const orderLabel = String(project.order).padStart(2, "0");
@@ -72,13 +72,13 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
       initial={{ opacity: 0, y: 40 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="border-border border-b py-12 sm:py-16 lg:py-20"
+      className="border-border border-b py-8 sm:py-16 lg:py-20"
     >
       {/* 상단 바: 번호 + 소속/기간 */}
       <div className="text-muted mb-4 flex items-center gap-3 text-sm">
-        <span className="text-accent font-mono font-bold">{orderLabel}</span>
-        <span className="bg-border h-px flex-1" />
-        <span className="whitespace-nowrap">
+        <span className="text-accent shrink-0 font-mono font-bold">{orderLabel}</span>
+        <span className="bg-border hidden h-px flex-1 sm:block" />
+        <span className="min-w-0 truncate text-right text-xs sm:whitespace-nowrap sm:text-sm">
           {project.org} · {project.period}
         </span>
       </div>
@@ -145,7 +145,7 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
           <button
             onClick={() => setExpanded(!expanded)}
             aria-expanded={expanded}
-            className="text-muted hover:text-accent flex items-center gap-1 text-xs font-medium transition-colors"
+            className="text-muted hover:text-accent flex items-center gap-1 py-2 text-xs font-medium transition-colors"
           >
             <span>{expanded ? "접기" : project.images?.length ? "이미지 & 더 보기" : "더 보기"}</span>
             <motion.span
@@ -219,6 +219,9 @@ export function ProjectSection({ project }: { project: PortfolioProject }) {
       {/* 태그 */}
       <div className="mt-8 space-y-3">
         <TagList items={project.skills} variant="skill" />
+        {project.jdTags && project.jdTags.length > 0 && (
+          <TagList items={project.jdTags} variant="capability" />
+        )}
       </div>
     </motion.section>
   );

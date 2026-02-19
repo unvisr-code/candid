@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/site-footer";
 import { landingVisualConfig } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "오영준 | Operations & Business Development",
+  title: "오영준 | Recruiting Consultant",
   description:
-    "오영준의 랜딩 페이지입니다. Resume와 Portfolio로 빠르게 이동할 수 있습니다.",
+    "AI 커리어 플랫폼 BD, 스타트업 창업, B2B CX 경험을 바탕으로 채용 컨설팅에 임합니다.",
 };
 
 export default function LandingPage() {

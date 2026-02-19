@@ -37,6 +37,7 @@ export type PortfolioProject = {
   extensionView: string;
   category: string;
   candidConnection: string;
+  jdTags: string[];
 };
 
 export type CapabilityDetail = {
@@ -59,7 +60,7 @@ export const portfolioProjects: PortfolioProject[] = [
   {
     id: "cx-automation",
     evdId: "EVD--1",
-    order: 1,
+    order: 3,
     org: "Angelswing",
     period: "2022.09 ~ 2023.02",
     title: "고객 문의 응대 및 자동화 구조 개선",
@@ -84,11 +85,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "반복 문의를 구조화한 방식은 이후 운영 과제에서도 재사용 가능한 기본 패턴이 되었습니다. 먼저 기준을 세우고 예외를 관리하는 접근을 유지하고 있습니다.",
     category: "Recruiting Ops / CRM",
     candidConnection: "고객 문의를 유형별로 분류하고 대응 기준을 정리한 방식은, 구직자의 고민을 패턴별로 분류하고 일관된 상담을 설계하는 데 그대로 적용할 수 있습니다.",
+    jdTags: ["#커뮤니케이션", "#후보자이해"],
   },
   {
     id: "secondteam-events",
     evdId: "EVD--8",
-    order: 2,
+    order: 10,
     org: "seeso",
     period: "2025.07 ~ 진행중",
     title: "세컨팀 행사 기획 및 운영",
@@ -113,11 +115,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "이 방식은 행사뿐 아니라 이해관계자가 많은 프로젝트 운영에도 그대로 적용됩니다. 준비 단계에서 기준을 명확히 고정하는 접근을 계속 유지하고 있습니다.",
     category: "Content / Community",
     candidConnection: "참여자 안내의 타이밍과 정확성을 관리한 경험은, 채용 과정에서 후보자에게 적시에 정확한 정보를 전달하는 커뮤니케이션 관리에 직접 연결됩니다.",
+    jdTags: ["#커뮤니케이션"],
   },
   {
     id: "leanup-si",
     evdId: "EVD--9",
-    order: 3,
+    order: 4,
     org: "LEANUP",
     period: "2025.12 ~ 진행중",
     title: "린업 SI 사업",
@@ -142,11 +145,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "요구사항이 불명확한 과제일수록 작게 시연하고 빠르게 합의하는 방식이 유효했습니다. 이후 다른 프로젝트에서도 동일한 리듬을 기본 운영 방식으로 사용하고 있습니다.",
     category: "Sales & Pipeline",
     candidConnection: "클라이언트의 요구사항을 파악하고 우선순위를 정리한 경험은, 기업의 채용 요구사항을 정확히 이해하고 맞는 후보자를 연결하는 데 그대로 적용할 수 있습니다.",
+    jdTags: ["#세일즈", "#커뮤니케이션"],
   },
   {
     id: "leanup-edu",
     evdId: "EVD--10",
-    order: 4,
+    order: 8,
     org: "LEANUP",
     period: "2025.12 ~ 진행중",
     title: "린업 교육 사업",
@@ -171,6 +175,7 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "복잡한 업무를 처음 다루는 사람에게는 도구 설명보다 실행 경로가 먼저 필요했습니다. 이후 프로젝트에서도 진입 장벽을 낮추는 단계형 운영 설계를 우선하고 있습니다.",
     category: "Content / Community",
     candidConnection: "학습자가 막히는 지점을 파악하고 다음 단계를 설계한 경험은, 구직자가 준비 과정에서 멈추는 구간을 찾아내고 구체적인 행동을 코칭하는 데 직접 연결됩니다.",
+    jdTags: ["#후보자이해"],
   },
   {
     id: "data-dashboard",
@@ -209,6 +214,7 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "다른 과제에서도 먼저 기준점을 정의하고 이후 도구를 배치하는 순서를 유지하고 있습니다. 이해관계자가 많은 환경일수록 이 순서가 실행 속도를 안정화했습니다.",
     category: "Analytics",
     candidConnection: "부서별로 흩어진 데이터를 공통 기준으로 재구성한 경험은, 후보자의 다양한 경험을 기업이 이해할 수 있는 형태로 프로파일링하는 데 그대로 적용할 수 있습니다.",
+    jdTags: ["#데이터분석"],
   },
   {
     id: "workflow-automation",
@@ -238,6 +244,7 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "운영 과제가 바뀌어도 입력-판단-조치의 기본 골격을 먼저 만들면 전환 비용이 낮아집니다. 이후 개선은 도구 교체보다 기준 보정에 집중하고 있습니다.",
     category: "Automation / Tooling",
     candidConnection: "반복 업무를 패턴별로 구조화하고 자동화 플로우를 설계한 경험은, 채용 운영에서 반복되는 프로세스를 효율화하고 운영 부담을 실질적으로 줄이는 데 직접 적용할 수 있습니다.",
+    jdTags: ["#데이터분석"],
   },
   {
     id: "ux-guide-chatbot",
@@ -267,11 +274,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "복잡한 제품일수록 정보 접근 경로를 먼저 설계해야 운영 비용이 안정화됩니다. 이후에는 콘텐츠 양보다 탐색 맥락의 일관성을 우선해 유지하고 있습니다.",
     category: "Automation / Tooling",
     candidConnection: "유저가이드를 재설계하고 챗봇과 연계한 경험은, 구직자가 필요한 정보를 스스로 찾을 수 있도록 안내 구조를 만드는 데 기여할 수 있습니다.",
+    jdTags: ["#후보자이해", "#커뮤니케이션"],
   },
   {
     id: "crm-funnel",
     evdId: "EVD--5",
-    order: 8,
+    order: 9,
     org: "세종대학교 총동아리연합회",
     period: "2024.01 ~ 2024.12",
     title: "학생 대상 CRM 기반 홍보·참여 퍼널 설계",
@@ -296,11 +304,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "대상 규모가 큰 운영 과제에서는 정성 피드백만으로는 개선 속도를 유지하기 어렵습니다. 유입-행동-피드백을 연결한 측정 프레임은 이후 다른 프로젝트에서도 재사용되고 있습니다.",
     category: "Recruiting Ops / CRM",
     candidConnection: "CRM 퍼널을 설계하고 채널별 전환율을 추적한 경험은, 후보자와의 소통 과정을 구조화하고 개선하는 데 기여할 수 있습니다.",
+    jdTags: ["#세일즈", "#데이터분석"],
   },
   {
     id: "careerly-mcp",
     evdId: "EVD--6",
-    order: 9,
+    order: 1,
     org: "Careerly",
     period: "2025.07 ~ 진행중",
     title: "커리어리 데이터 MCP",
@@ -329,11 +338,12 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "복잡한 운영 환경에서는 도구를 늘리는 것보다 질의와 해석의 표준을 먼저 맞추는 접근이 효과적이었습니다. 이후 다른 데이터 과제에서도 같은 질의 중심 구조를 재사용하고 있습니다.",
     category: "Analytics",
     candidConnection: "데이터 분석 리드타임을 줄인 경험은, 채용 과정에서 필요한 정보를 빠르게 정리하고 공유하는 데 기여할 수 있습니다.",
+    jdTags: ["#마켓리서치", "#데이터분석", "#매칭"],
   },
   {
     id: "careerly-dashboard",
     evdId: "EVD--7",
-    order: 10,
+    order: 2,
     org: "Careerly",
     period: "2025.07 ~ 진행중",
     title: "커리어리 데이터 대시보드",
@@ -363,6 +373,7 @@ export const portfolioProjects: PortfolioProject[] = [
     extensionView: "이 방식은 새로운 조직이나 제품에서도 빠르게 재사용할 수 있는 프레임이 됩니다. 먼저 질문 목록을 만들고, 이후 지표 체계를 붙이는 순서로 확장하고 있습니다.",
     category: "Analytics",
     candidConnection: "질문 기반으로 대시보드를 설계한 경험은, 채용 성과를 같은 기준으로 판단할 수 있는 정보 구조를 만드는 데 기여할 수 있습니다.",
+    jdTags: ["#데이터분석", "#마켓리서치"],
   },
 ];
 
