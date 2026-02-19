@@ -5,7 +5,7 @@ order: 8
 jdTags:
   - "#후보자이해"
 org: LEANUP
-period: "2025.12 ~ 진행중"
+period: "2025.10 ~ 진행중"
 title: 린업 교육 사업
 resultValue: 교육
 resultNum: null
@@ -26,7 +26,7 @@ coverImage: /candid-portfolio-photo/leanup-edu.jpg
 현재 운영 중이며 유료 전환 구조와 반복 교육 커리큘럼을 검증하고 있습니다.
 
 ## headline
-누구나 바이브코딩을 시작할 수 있는 교육 프로그램을 운영하고 있습니다.
+누구나 바이브코딩을 시작할 수 있는 교육 프로그램을 운영했습니다.
 
 ## summary
 커리큘럼 설계, 세션 운영, 참여자 질문 응대와 진도 관리를 담당했습니다. 실습 기반으로 학습자가 결과물을 남기도록 설계하고, 반복 운영이 가능한 구조로 정리하고 있습니다.
